@@ -4,4 +4,8 @@
 
 * [MPI vs OpenMP: A case study on parallel generation of Mandelbrot Set, Gomez, Ernesto Soto](https://www.researchgate.net/publication/344453347_MPI_vs_OpenMP_A_case_study_on_parallel_generation_of_Mandelbrot_set)
 
+* [Efficient Generation of Mandebrot Set usign Message Passing Interface](https://arxiv.org/pdf/2007.00745.pdf)
+
+
+
 
