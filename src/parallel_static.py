@@ -5,6 +5,8 @@ from typing import List
 import time
 from multiprocessing import Array, Process, Queue, Pool, RawArray, shared_memory
 import multiprocessing.sharedctypes
+import sys
+
 
 def mandel_test(c: complex, 
                 max_iters: int):
@@ -77,7 +79,7 @@ def run(matrix: np.ndarray,
     shm = shared_memory.SharedMemory(name='my_shared_memory')
     res = np.ndarray(matrix.shape, dtype=np.int32, buffer=shm.buf)
 
-    print (f"size: {size}, rem: {rem}, row_cnt: {row_cnt}")
+    #print (f"size: {size}, rem: {rem}, row_cnt: {row_cnt}")
 
     for i in range(id * size, row_cnt - rem, p * size):
         #print(f"i: {i}, i + size: {i + size}")
@@ -102,18 +104,19 @@ def parallel_check(xmin, xmax, ymin, ymax,
     cnt = granularity * parallelism
     size = c.shape[0] // cnt
 
+    if parallelism > 1:
+        pool = Pool(processes=parallelism - 1)
+        params = [(c, parallelism, i, size, num_iterations) 
+                    for i in range(1, parallelism)]
+        
+        pool.starmap(run, params)
+        pool.close()
 
-    pool = Pool(processes=parallelism - 1)
-    params = [(c, parallelism, i, size, num_iterations) 
-                for i in range(1, parallelism)]
-    
-    pool.starmap(run, params)
-    pool.close()
+        run(c, parallelism, 0, size, num_iterations)
 
-    run(c, parallelism, 0, size, num_iterations)
-
-    pool.join()
-    
+        pool.join()
+    else:
+        run(c, parallelism, 0, size, num_iterations)
 
     end_time = time.perf_counter()
 
@@ -133,15 +136,22 @@ if __name__ == "__main__":
     pixel_density_y = 2160
     num_iterations = 256
 
-    granularity = 10
-    parallelism = 3
+    granularity = 4
+    parallelism = 4
+
+
+    if len(sys.argv) > 1:
+        parallelism = int(sys.argv[1])
+        print(f"parallelism: {parallelism}")
+    else: 
+        print("No command line arguments given. Using default values.")
+
 
     res = parallel_check(-0.8, -0.3, 0.3, 0.8, pixel_density_x, pixel_density_y, 
                          num_iterations, granularity, parallelism)
 
-    print(res)
 
-    plt.imshow(res, extent=(-0.8, -0.3, 0.3, 0.8), cmap='rainbow_r', aspect='auto')
-    plt.colorbar()
-    plt.show()
+    # plt.imshow(res, extent=(-0.8, -0.3, 0.3, 0.8), cmap='rainbow_r', aspect='auto')
+    # plt.colorbar()
+    # plt.show()
 
