@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
 import numpy as np
 from typing import List, Tuple
-
+import time
 
 def mandel_test(c: complex, 
                 max_iters: int):
@@ -35,9 +35,16 @@ def seq_check(xmin, xmax, ymin, ymax, pixel_density_x, pixel_density_y, num_iter
     """
     c = complex_matrix(xmin, xmax, ymin, ymax, pixel_density_x, pixel_density_y)
     res = np.zeros(c.shape, dtype=int)   
+    
+    start_time = time.perf_counter()
+
     for i, row in enumerate(c):
         for j in range(len(row)):
             res[i][j] = mandel_test(row[j], num_iterations)
+
+    end_time = time.perf_counter()
+
+    print(f"Time taken: {end_time - start_time:0.4f} seconds")
 
     return res
 
@@ -50,7 +57,7 @@ def seq_check(xmin, xmax, ymin, ymax, pixel_density_x, pixel_density_y, num_iter
 if __name__ == "__main__":
 
     stable = seq_check(-0.8, -0.3, 0.3, 0.8, 3840, 2160, 256)
-    plt.imshow(stable, extent=(-2, 1, -1, 1), cmap='hot', aspect='auto')
+    plt.imshow(stable, extent=(-2, 1, -1, 1), cmap='rainbow_r', aspect='auto')
     plt.colorbar()
     plt.show()
 
