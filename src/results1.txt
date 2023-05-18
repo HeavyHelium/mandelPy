@@ -1,68 +1,20 @@
 Running program with p = 1 and g = 1
-Time taken: 27.4438 seconds
-Program execution completed
-
-Running program with p = 1 and g = 5
-Time taken: 28.5148 seconds
-Program execution completed
-
-Running program with p = 1 and g = 10
-Time taken: 27.9434 seconds
-Program execution completed
-
-Running program with p = 2 and g = 1
-Time taken: 29.6602 seconds
-Program execution completed
-
-Running program with p = 2 and g = 5
-Time taken: 28.8207 seconds
-Program execution completed
-
-Running program with p = 2 and g = 10
-Time taken: 29.1709 seconds
-Program execution completed
-
-Running program with p = 3 and g = 1
-Time taken: 27.9242 seconds
-Program execution completed
-
-Running program with p = 3 and g = 5
-Time taken: 21.9197 seconds
-Program execution completed
-
-Running program with p = 3 and g = 10
-Time taken: 22.2816 seconds
-Program execution completed
-
-Running program with p = 4 and g = 1
-Time taken: 23.6986 seconds
-Program execution completed
-
-Running program with p = 4 and g = 5
-Time taken: 19.1199 seconds
-Program execution completed
-
-Running program with p = 4 and g = 10
-Time taken: 18.3821 seconds
-Program execution completed
-
-Running program with p = 1 and g = 1
-Time taken: 25.1766 seconds
+Time taken: 26.8764 seconds
 Program execution completed
 
 Running program with p = 1 and g = 4
-Time taken: 26.7382 seconds
+Time taken: 25.0112 seconds
 Program execution completed
 
 Running program with p = 1 and g = 5
-Time taken: 26.5482 seconds
+Time taken: 25.1047 seconds
 Program execution completed
 
 Running program with p = 1 and g = 10
-Time taken: 25.2090 seconds
+Time taken: 25.0770 seconds
 Program execution completed
 
 Running program with p = 1 and g = 12
-Time taken: 27.7569 seconds
+Time taken: 25.8900 seconds
 Program execution completed
 
