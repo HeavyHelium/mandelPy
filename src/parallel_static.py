@@ -6,6 +6,7 @@ import time
 from multiprocessing import Array, Process, Queue, Pool, RawArray, shared_memory
 import multiprocessing.sharedctypes
 import sys
+import argparse
 
 
 def mandel_test(c: complex, 
@@ -76,7 +77,7 @@ def run(matrix: np.ndarray,
     row_cnt = matrix.shape[0]
     rem = row_cnt % (size)
 
-    shm = shared_memory.SharedMemory(name='my_shared_memory')
+    shm = shared_memory.SharedMemory(name='MandelMatrix')
     res = np.ndarray(matrix.shape, dtype=np.int32, buffer=shm.buf)
 
     #print (f"size: {size}, rem: {rem}, row_cnt: {row_cnt}")
@@ -96,7 +97,7 @@ def parallel_check(xmin, xmax, ymin, ymax,
 
     c = complex_matrix(xmin, xmax, ymin, ymax, pixel_density_x, pixel_density_y)
     res = np.zeros(c.shape, dtype=np.int32)  
-    shm = multiprocessing.shared_memory.SharedMemory(name='my_shared_memory', create=True, size=res.nbytes)
+    shm = multiprocessing.shared_memory.SharedMemory(name='MandelMatrix', create=True, size=res.nbytes)
     shared_res = np.ndarray(c.shape, dtype=np.int32, buffer=shm.buf)
     np.copyto(shared_res, res)  
 
@@ -130,16 +131,84 @@ def parallel_check(xmin, xmax, ymin, ymax,
     return res
 
 
+class ArgParser:
+
+    descriptions: dict[str, str] = {
+        'overall': """ Generates the Mandelbrot set, 
+         based on the given parameters, namely 
+         granularity, parallelism, and the number of iterations.
+         The resolution is fixed to 3840x2160.
+         """,
+        'granularity': 'The granularity of the subproblems',
+        'parallelism': 'The number of workers to be used', 
+        'iterations': 'The number of iterations to be used'
+    }
+
+
+    def __init__(self): 
+        self.parser = argparse.ArgumentParser(description=ArgParser.descriptions['overall'])
+        
+        self.parser.add_argument('-g', '--granularity', type=int, 
+                                 default=12, help=ArgParser.descriptions['granularity'])
+        self.parser.add_argument('-p', '--parallelism', type=int, 
+                                 default=4, help=ArgParser.descriptions['parallelism'])
+        self.parser.add_argument('-i', '--iterations', type=int, 
+                                 default=256, help=ArgParser.descriptions['iterations'])
+
+        self.args = self.parser.parse_args()
+    
+    @property
+    def granularity(self) -> int:
+        return self.args.granularity
+    
+    @property
+    def parallelism(self) -> int:
+        return self.args.parallelism
+    
+    @property
+    def iterations(self) -> int:
+        return self.args.iterations
+    
+    def print_help(self):
+        self.parser.print_help()
+
+
+class MandelbrotGenerator: 
+    def __init__(self, granularity: int = 12, 
+                       parallelism: int = 4, 
+                       num_iterations: int = 256) -> None:
+        self.pixel_density_x = 3840
+        self.pixel_density_y = 2160
+        self.num_iterations = num_iterations
+        self.granularity = granularity
+        self.parallelism = parallelism
+
+        self.res = None
+
+    @classmethod
+    def from_parser(cls, parser: ArgParser):
+        return cls(parser.granularity, parser.parallelism, parser.iterations)
+        
+
+    def compute(self, xmin: float = -0.8, xmax: float = -0.3, 
+                      ymin: float = 0.3, ymax: float = 0.8):
+        self.res = parallel_check(xmin, xmax, ymin, ymax, 
+                                  self.pixel_density_x, self.pixel_density_y, 
+                                  self.num_iterations, self.granularity, self.parallelism)
+
+    def show(self):
+        plt.imshow(self.res, extent=(-0.8, -0.3, 0.3, 0.8), cmap='rainbow_r', aspect='auto')
+        plt.colorbar()
+        plt.show()
 
 if __name__ == "__main__": 
-    pixel_density_x = 3840
-    pixel_density_y = 2160
-    num_iterations = 256
+    parser = ArgParser()
+    m = MandelbrotGenerator.from_parser(parser)
+    m.compute()
+    #m.show()
+    
 
-    granularity = 4
-    parallelism = 4
-
-
+"""
     if len(sys.argv) > 1:
         parallelism = int(sys.argv[1])
         print(f"parallelism: {parallelism}")
@@ -150,7 +219,7 @@ if __name__ == "__main__":
     res = parallel_check(-0.8, -0.3, 0.3, 0.8, pixel_density_x, pixel_density_y, 
                          num_iterations, granularity, parallelism)
 
-
+"""
     # plt.imshow(res, extent=(-0.8, -0.3, 0.3, 0.8), cmap='rainbow_r', aspect='auto')
     # plt.colorbar()
     # plt.show()
