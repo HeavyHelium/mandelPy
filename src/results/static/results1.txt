@@ -1,80 +1,80 @@
 Running program with p = 1 and g = 1
-Time taken: 26.8764 seconds
+Time taken: 26.7717 seconds
 Program execution completed
 
 Running program with p = 1 and g = 4
-Time taken: 25.0112 seconds
+Time taken: 27.7561 seconds
 Program execution completed
 
 Running program with p = 1 and g = 5
-Time taken: 25.1047 seconds
+Time taken: 29.9052 seconds
 Program execution completed
 
 Running program with p = 1 and g = 10
-Time taken: 25.0770 seconds
+Time taken: 26.5083 seconds
 Program execution completed
 
 Running program with p = 1 and g = 12
-Time taken: 25.8900 seconds
+Time taken: 28.7826 seconds
 Program execution completed
 
 Running program with p = 2 and g = 1
-Time taken: 26.0003 seconds
+Time taken: 28.6394 seconds
 Program execution completed
 
 Running program with p = 2 and g = 4
-Time taken: 26.9516 seconds
+Time taken: 27.0272 seconds
 Program execution completed
 
 Running program with p = 2 and g = 5
-Time taken: 29.1705 seconds
+Time taken: 29.9523 seconds
 Program execution completed
 
 Running program with p = 2 and g = 10
-Time taken: 26.0477 seconds
+Time taken: 31.9586 seconds
 Program execution completed
 
 Running program with p = 2 and g = 12
-Time taken: 27.2886 seconds
+Time taken: 31.3135 seconds
 Program execution completed
 
 Running program with p = 3 and g = 1
-Time taken: 24.3877 seconds
+Time taken: 27.2626 seconds
 Program execution completed
 
 Running program with p = 3 and g = 4
-Time taken: 20.3857 seconds
+Time taken: 23.6641 seconds
 Program execution completed
 
 Running program with p = 3 and g = 5
-Time taken: 18.6771 seconds
+Time taken: 20.8011 seconds
 Program execution completed
 
 Running program with p = 3 and g = 10
-Time taken: 20.0286 seconds
+Time taken: 22.4612 seconds
 Program execution completed
 
 Running program with p = 3 and g = 12
-Time taken: 18.7089 seconds
+Time taken: 21.2422 seconds
 Program execution completed
 
 Running program with p = 4 and g = 1
-Time taken: 23.9720 seconds
+Time taken: 23.7597 seconds
 Program execution completed
 
 Running program with p = 4 and g = 4
-Time taken: 18.0807 seconds
+Time taken: 19.3291 seconds
 Program execution completed
 
 Running program with p = 4 and g = 5
-Time taken: 16.1636 seconds
+Time taken: 17.4976 seconds
 Program execution completed
 
 Running program with p = 4 and g = 10
-Time taken: 14.4945 seconds
+Time taken: 17.0269 seconds
 Program execution completed
 
 Running program with p = 4 and g = 12
-Time taken: 14.2456 seconds
+Time taken: 19.2005 seconds
 Program execution completed
 
