@@ -3,6 +3,11 @@ import numpy as np
 from typing import List, Tuple
 import time
 
+"""
+This is a simple implementation of the Mandelbrot set 
+sequential generation algorithm.
+"""
+
 def mandel_test(c: complex, 
                 max_iters: int):
     

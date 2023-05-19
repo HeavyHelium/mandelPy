@@ -1,7 +1,26 @@
+from multiprocessing import shared_memory
 
-from multiprocessing import Array, Process, Queue, Pool, RawArray, shared_memory
-import multiprocessing.sharedctypes
+import numpy as np
 
+def mandel_test(c: complex, 
+                max_iters: int) -> int:
+    
+    z: complex = complex(0, 0)
+
+    for i in range(max_iters):
+        if abs(z) > 2:
+            return i
+        z = z * z + c    
+    return max_iters
+
+def run(matrix: np.ndarray):
+
+    row_cnt = matrix.shape[0]
+
+    shm = shared_memory.SharedMemory(name='MandelMatrix')
+    res = np.ndarray(matrix.shape, dtype=np.int32, buffer=shm.buf) # map the shared memory to a numpy array
+
+    shm.close()
 
 def complex_matrix(xmin, xmax, 
                    ymin, ymax, 
@@ -20,14 +39,7 @@ def complex_matrix(xmin, xmax,
     return re[np.newaxis, :] + im[:, np.newaxis] * 1j
 
 
-c = complex_matrix(xmin, xmax, ymin, ymax, pixel_density_x, pixel_density_y)
-res = np.zeros(c.shape, dtype=np.int32)  
-shm = multiprocessing.shared_memory.SharedMemory(name='my_shared_memory', create=True, size=res.nbytes)
 
-
-
-shm.close()
-shm.unlink()
-
-
-   
+if __name__ == "__main__":
+    c = complex_matrix(-0.8,-0.3, 0.3, 0.8, 3840, 2160)   
+    run(c)

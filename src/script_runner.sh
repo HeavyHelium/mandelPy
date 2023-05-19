@@ -21,6 +21,6 @@ do
     echo "Saved results to $output_file"
 
     # lull
-    sleep 10
+    sleep 5
 done
 

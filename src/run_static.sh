@@ -7,8 +7,6 @@ for ((i = 1; i <= 4; i++)); do
         python3 parallel_static.py -p "$i" -g "$j"
         echo "Program execution completed"
         echo
-        sleep 20
     done
-    sleep 30
 done
 
