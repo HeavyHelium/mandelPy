@@ -7,5 +7,5 @@ if __name__ == "__main__":
     parser = ArgParser()
     m = MandelbrotGenerator.from_parser(parser)
     m.compute()
-    # m.show()
+    #m.show()
 

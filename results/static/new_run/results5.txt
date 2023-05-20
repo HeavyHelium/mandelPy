@@ -1,0 +1,1 @@
+Running program with p = 1 and g = 1

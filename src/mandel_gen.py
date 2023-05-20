@@ -23,18 +23,37 @@ def mandel_test(c: complex,
 def complex_matrix(xmin, xmax, 
                    ymin, ymax, 
                    pixel_density_x, 
-                   pixel_density_y) -> np.ndarray: 
+                   pixel_density_y) : 
     """
-    returns a 2D array of complex numbers
-    enclosed in a rectanlgular area 
-    xmin, xmax: the bounds in the horizontal direction
-    ymin, ymax: the bounds in the vertical direction
-    pixel_density: the numbber of pixels per unit
-    """
-    re = np.linspace(xmin, xmax, int((xmax - xmin) * pixel_density_x))
-    im = np.linspace(ymin, ymax, int((ymax - ymin) * pixel_density_y))
+    creates a complex matrix of size (pixel_density_x, pixel_density_y),
+    which stored in shared memory
 
-    return re[np.newaxis, :] + im[:, np.newaxis] * 1j
+    """
+
+    re = np.linspace(xmin, xmax, pixel_density_x)
+    im = np.linspace(ymin, ymax, pixel_density_y)
+    X, Y = np.meshgrid(re, im)  # Generate the meshgrid
+
+    # Create the complex matrix
+    complex_matrix = X + 1j * Y
+
+    shm_c = multiprocessing.shared_memory.SharedMemory(name='ComplexMatrix', 
+                                                       create=True, 
+                                                       size=complex_matrix.nbytes)
+    
+    c = np.ndarray((pixel_density_y, pixel_density_x),
+                    dtype=np.complex128,
+                    buffer=shm_c.buf)
+    
+    np.copyto(c, complex_matrix)
+
+
+
+
+    shm_c.close()
+
+    return c.shape
+    
 
 def get_subproblems_cnt(granularity: int, 
                         parallelism: int) -> int:
@@ -45,19 +64,20 @@ def get_step(subproblem_size: int,
              parallelism: int) -> int:
     return subproblem_size * parallelism
 
-def run(matrix: np.ndarray, 
+def run(matrix_shape: Tuple, 
         p: int,
         id: int, 
         size: int, 
         num_iterations: int):
 
-    row_cnt = matrix.shape[0]
-    rem = row_cnt % (size)
-
     shm = shared_memory.SharedMemory(name='MandelMatrix')
+    shm_c = shared_memory.SharedMemory(name='ComplexMatrix')
     # map the shared memory to a numpy array
-    res = np.ndarray(matrix.shape, dtype=np.int32, buffer=shm.buf) 
-
+    res = np.ndarray(matrix_shape, dtype=np.int32, buffer=shm.buf) 
+    matrix = np.ndarray(matrix_shape, dtype=np.complex128, buffer=shm_c.buf)
+    #print(matrix)
+    row_cnt = matrix_shape[0]
+    rem = row_cnt % (size)
     #print (f"size: {size}, rem: {rem}, row_cnt: {row_cnt}")
 
     for i in range(id * size, row_cnt - rem, p * size):
@@ -77,15 +97,18 @@ def parallel_check(xmin, xmax,
                    granularity, 
                    parallelism) -> np.ndarray:
 
-    c = complex_matrix(xmin, xmax, 
-                       ymin, ymax, 
-                       pixel_density_x,
-                       pixel_density_y)
+    matrix_shape = complex_matrix(xmin, xmax, 
+                                  ymin, ymax, 
+                                  pixel_density_x,
+                                  pixel_density_y)
     
-    res = np.zeros(c.shape, dtype=np.int32)  
+
+    res = np.zeros(matrix_shape, dtype=np.int32)
     shm = multiprocessing.shared_memory.SharedMemory(name='MandelMatrix', 
                                                      create=True, 
                                                      size=res.nbytes)
+    shm_c = shared_memory.SharedMemory(name='ComplexMatrix')
+
     
     # shm = shared_memory.SharedMemory(name='MandelMatrix')
 
@@ -96,26 +119,26 @@ def parallel_check(xmin, xmax,
     # shm_c = shared_memory.SharedMemory(name="ComplexMatrix")
 
 
-    shared_res = np.ndarray(c.shape, dtype=np.int32, buffer=shm.buf)
+    shared_res = np.ndarray(matrix_shape, dtype=np.int32, buffer=shm.buf)
     np.copyto(shared_res, res)  
 
     start_time = time.perf_counter()
     cnt = granularity * parallelism
-    size = c.shape[0] // cnt
+    size = matrix_shape[0] // cnt
 
     if parallelism > 1:
         pool = Pool(processes=parallelism - 1)
-        params = [(c, parallelism, i, size, num_iterations) 
+        params = [(matrix_shape, parallelism, i, size, num_iterations) 
                   for i in range(1, parallelism)]
         
         pool.starmap(run, params)
         pool.close()
 
-        run(c, parallelism, 0, size, num_iterations)
+        run(matrix_shape, parallelism, 0, size, num_iterations)
 
         pool.join()
     else:
-        run(c, parallelism, 0, size, num_iterations)
+        run(matrix_shape, parallelism, 0, size, num_iterations)
 
     end_time = time.perf_counter()
 
@@ -124,9 +147,8 @@ def parallel_check(xmin, xmax,
     res = np.copy(shared_res)
     shm.close()
     shm.unlink()
-    # shm_c.close()
-    # shm_c.unlink()
-
+    shm_c.close()
+    shm_c.unlink()
 
     return res
 
@@ -177,5 +199,4 @@ class MandelbrotGenerator:
 
 
 if __name__ == "__main__":
-    c = complex_matrix(-0.8, -0.3, 0.3, 0.8, 3840, 2160)
-    print(c.shape)
+    pass
