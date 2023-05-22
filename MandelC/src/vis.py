@@ -16,7 +16,7 @@ class MandelSet:
     def __init__(self): 
         self.__parse_file()
 
-    def __parse_file(self, filename="matrix.txt"):
+    def __parse_file(self, filename="../matrix.txt"):
         with open(filename, 'r') as file:
             
             width = int(file.readline())

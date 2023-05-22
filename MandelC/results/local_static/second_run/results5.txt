@@ -1,0 +1,252 @@
+Running program with p = 1 and g = 1
+Execution time: 23202 ms
+Workloads:
+(id: 0,  time: 23202)
+
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 1
+Execution time: 11403 ms
+Workloads:
+(id: 0,  time: 11376)
+(id: 1,  time: 11403)
+
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 1
+Execution time: 18610 ms
+Workloads:
+(id: 0,  time: 2338)
+(id: 1,  time: 18610)
+(id: 2,  time: 2344)
+
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 1
+Execution time: 10806 ms
+Workloads:
+(id: 0,  time: 560)
+(id: 1,  time: 10790)
+(id: 2,  time: 10806)
+(id: 3,  time: 562)
+
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 2
+Execution time: 11941 ms
+Workloads:
+(id: 0,  time: 11941)
+
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 2
+Execution time: 4301 ms
+Workloads:
+(id: 0,  time: 4301)
+(id: 1,  time: 4296)
+
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 2
+Execution time: 3629 ms
+Workloads:
+(id: 0,  time: 3629)
+(id: 1,  time: 1800)
+(id: 2,  time: 3623)
+
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 2
+Execution time: 3019 ms
+Workloads:
+(id: 0,  time: 3019)
+(id: 1,  time: 1611)
+(id: 2,  time: 1614)
+(id: 3,  time: 3012)
+
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 4
+Execution time: 8527 ms
+Workloads:
+(id: 0,  time: 8527)
+
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 4
+Execution time: 4307 ms
+Workloads:
+(id: 0,  time: 4307)
+(id: 1,  time: 4303)
+
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 4
+Execution time: 3156 ms
+Workloads:
+(id: 0,  time: 3156)
+(id: 1,  time: 3071)
+(id: 2,  time: 3154)
+
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 4
+Execution time: 2375 ms
+Workloads:
+(id: 0,  time: 2321)
+(id: 1,  time: 2375)
+(id: 2,  time: 2374)
+(id: 3,  time: 2319)
+
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 8
+Execution time: 8529 ms
+Workloads:
+(id: 0,  time: 8529)
+
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 8
+Execution time: 4295 ms
+Workloads:
+(id: 0,  time: 4295)
+(id: 1,  time: 4294)
+
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 8
+Execution time: 3295 ms
+Workloads:
+(id: 0,  time: 3038)
+(id: 1,  time: 3295)
+(id: 2,  time: 3038)
+
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 8
+Execution time: 2409 ms
+Workloads:
+(id: 0,  time: 2283)
+(id: 1,  time: 2406)
+(id: 2,  time: 2409)
+(id: 3,  time: 2281)
+
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 16
+Execution time: 8535 ms
+Workloads:
+(id: 0,  time: 8535)
+
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 16
+Execution time: 4308 ms
+Workloads:
+(id: 0,  time: 4308)
+(id: 1,  time: 4305)
+
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 16
+Execution time: 3189 ms
+Workloads:
+(id: 0,  time: 3189)
+(id: 1,  time: 2981)
+(id: 2,  time: 3188)
+
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 16
+Execution time: 2420 ms
+Workloads:
+(id: 0,  time: 2420)
+(id: 1,  time: 2354)
+(id: 2,  time: 2268)
+(id: 3,  time: 2414)
+
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 32
+Execution time: 8531 ms
+Workloads:
+(id: 0,  time: 8531)
+
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 32
+Execution time: 4337 ms
+Workloads:
+(id: 0,  time: 4284)
+(id: 1,  time: 4337)
+
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 32
+Execution time: 3174 ms
+Workloads:
+(id: 0,  time: 3109)
+(id: 1,  time: 3174)
+(id: 2,  time: 3110)
+
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 32
+Execution time: 2365 ms
+Workloads:
+(id: 0,  time: 2346)
+(id: 1,  time: 2343)
+(id: 2,  time: 2345)
+(id: 3,  time: 2365)
+
+
+Done!
+Program execution completed
+

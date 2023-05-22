@@ -1,0 +1,100 @@
+Running program with p = 1 and g = 1
+Execution time: 8885 ms
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 1
+Execution time: 4615 ms
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 1
+Execution time: 7067 ms
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 1
+Execution time: 4433 ms
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 4
+Execution time: 9376 ms
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 4
+Execution time: 5185 ms
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 4
+Execution time: 3686 ms
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 4
+Execution time: 2947 ms
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 5
+Execution time: 9426 ms
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 5
+Execution time: 4852 ms
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 5
+Execution time: 3788 ms
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 5
+Execution time: 3073 ms
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 10
+Execution time: 9389 ms
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 10
+Execution time: 4887 ms
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 10
+Execution time: 3780 ms
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 10
+Execution time: 3039 ms
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 12
+Execution time: 8899 ms
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 12
+Execution time: 4845 ms
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 12
+Execution time: 3638 ms
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 12
+Execution time: 3006 ms
+Done!
+Program execution completed
+
