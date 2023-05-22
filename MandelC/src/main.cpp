@@ -7,8 +7,6 @@
 #include <chrono>
 #include <algorithm>
 
-// TODO: Add an std::vector<int> for computational time 
-// for each worker 
 
 struct ThreadLog { 
     int id;
