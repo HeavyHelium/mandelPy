@@ -26,10 +26,6 @@ class MandelSet:
             
             data = [int(x) for x in file.readline().split()]
             
-            print(42)
-            print(data)
-            print(width)
-            print(x_min, x_max, y_min, y_max)
         self.matrix = [data[i:i+width] for i in range(0, len(data), width)]
     
 
