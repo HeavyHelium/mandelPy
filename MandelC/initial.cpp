@@ -141,7 +141,7 @@ struct MandelGenerator {
       parallelism(parallelism),
       granularity(granularity) {
 
-        computeSet(image, area); 
+        computeSet(image, area, parallelism, granularity); 
     }
 
     int subtasks_cnt() const { 
@@ -191,7 +191,7 @@ int main(int argc, char** argv) {
     // const int height = 2160;
     const int width = 7680;
     const int height = 4320;
-    
+
     const int max_iterations = 1000;
 
     ComplexArea area{Interval{-2, 1}, 
