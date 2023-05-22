@@ -103,8 +103,8 @@ void generateMandelbrotRow(int row,
 
 /*
 @brief:
-    Each woker takes a chunck of rows and computes them.
-    The chunck size is determined by the granularity parameter.
+    Each worker takes a bunch of rows and computes 
+    the mandelbrot set for each row.
     The distribution is cyclic.
 */
 
