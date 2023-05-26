@@ -1,0 +1,1301 @@
+Running program with p = 1 and g = 1
+Execution time: 14383 ms
+Workloads:
+(id: 0,  time: 14383)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 1
+Execution time: 7335 ms
+Workloads:
+(id: 0,  time: 7214)
+(id: 1,  time: 7335)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 1
+Execution time: 6772 ms
+Workloads:
+(id: 0,  time: 514)
+(id: 1,  time: 6772)
+(id: 2,  time: 6767)
+(id: 3,  time: 514)
+
+Done!
+Program execution completed
+
+Running program with p = 8 and g = 1
+Execution time: 4663 ms
+Workloads:
+(id: 1,  time: 362)
+(id: 2,  time: 2275)
+(id: 3,  time: 4663)
+(id: 4,  time: 4569)
+(id: 5,  time: 2189)
+(id: 6,  time: 379)
+(id: 7,  time: 143)
+
+Done!
+Program execution completed
+
+Running program with p = 12 and g = 1
+Execution time: 3452 ms
+Workloads:
+(id: 0,  time: 93)
+(id: 1,  time: 123)
+(id: 2,  time: 319)
+(id: 3,  time: 1206)
+(id: 4,  time: 2360)
+(id: 5,  time: 3368)
+(id: 6,  time: 3452)
+(id: 7,  time: 2294)
+(id: 8,  time: 1203)
+(id: 9,  time: 316)
+(id: 10,  time: 128)
+(id: 11,  time: 93)
+
+Done!
+Program execution completed
+
+Running program with p = 16 and g = 1
+Execution time: 2686 ms
+Workloads:
+(id: 0,  time: 96)
+(id: 1,  time: 84)
+(id: 2,  time: 109)
+(id: 3,  time: 285)
+(id: 4,  time: 728)
+(id: 5,  time: 1560)
+(id: 6,  time: 2089)
+(id: 7,  time: 2623)
+(id: 8,  time: 2685)
+(id: 9,  time: 2039)
+(id: 10,  time: 1597)
+(id: 11,  time: 704)
+(id: 12,  time: 287)
+(id: 13,  time: 109)
+(id: 14,  time: 84)
+(id: 15,  time: 95)
+
+Done!
+Program execution completed
+
+Running program with p = 20 and g = 1
+Execution time: 2187 ms
+Workloads:
+(id: 0,  time: 91)
+(id: 1,  time: 99)
+(id: 2,  time: 110)
+(id: 3,  time: 93)
+(id: 4,  time: 260)
+(id: 5,  time: 468)
+(id: 6,  time: 1159)
+(id: 7,  time: 1430)
+(id: 8,  time: 1879)
+(id: 9,  time: 2186)
+(id: 10,  time: 2158)
+(id: 11,  time: 1866)
+(id: 12,  time: 1431)
+(id: 13,  time: 1179)
+(id: 14,  time: 474)
+(id: 15,  time: 283)
+(id: 16,  time: 118)
+(id: 17,  time: 106)
+(id: 18,  time: 62)
+(id: 19,  time: 91)
+
+Done!
+Program execution completed
+
+Running program with p = 24 and g = 1
+Execution time: 1885 ms
+Workloads:
+(id: 0,  time: 73)
+(id: 1,  time: 80)
+(id: 2,  time: 58)
+(id: 3,  time: 70)
+(id: 4,  time: 112)
+(id: 5,  time: 259)
+(id: 6,  time: 354)
+(id: 7,  time: 915)
+(id: 8,  time: 1117)
+(id: 9,  time: 1297)
+(id: 10,  time: 1717)
+(id: 11,  time: 1824)
+(id: 12,  time: 1884)
+(id: 13,  time: 1666)
+(id: 14,  time: 1313)
+(id: 15,  time: 1116)
+(id: 16,  time: 936)
+(id: 17,  time: 338)
+(id: 18,  time: 276)
+(id: 19,  time: 106)
+(id: 20,  time: 101)
+(id: 21,  time: 86)
+(id: 22,  time: 79)
+(id: 23,  time: 76)
+
+Done!
+Program execution completed
+
+Running program with p = 28 and g = 1
+Execution time: 1592 ms
+Workloads:
+(id: 0,  time: 63)
+(id: 1,  time: 41)
+(id: 2,  time: 72)
+(id: 3,  time: 78)
+(id: 4,  time: 84)
+(id: 5,  time: 109)
+(id: 6,  time: 247)
+(id: 7,  time: 286)
+(id: 8,  time: 726)
+(id: 9,  time: 910)
+(id: 10,  time: 1054)
+(id: 11,  time: 1245)
+(id: 12,  time: 1507)
+(id: 13,  time: 1584)
+(id: 14,  time: 1591)
+(id: 15,  time: 1514)
+(id: 16,  time: 1274)
+(id: 17,  time: 1046)
+(id: 18,  time: 933)
+(id: 19,  time: 730)
+(id: 20,  time: 294)
+(id: 21,  time: 252)
+(id: 22,  time: 102)
+(id: 23,  time: 89)
+(id: 24,  time: 79)
+(id: 25,  time: 71)
+(id: 26,  time: 68)
+(id: 27,  time: 65)
+
+Done!
+Program execution completed
+
+Running program with p = 32 and g = 1
+Execution time: 1444 ms
+Workloads:
+(id: 0,  time: 68)
+(id: 1,  time: 58)
+(id: 2,  time: 61)
+(id: 3,  time: 64)
+(id: 4,  time: 73)
+(id: 5,  time: 80)
+(id: 6,  time: 102)
+(id: 7,  time: 219)
+(id: 8,  time: 255)
+(id: 9,  time: 542)
+(id: 10,  time: 840)
+(id: 11,  time: 913)
+(id: 12,  time: 993)
+(id: 13,  time: 1188)
+(id: 14,  time: 1371)
+(id: 15,  time: 1416)
+(id: 16,  time: 1443)
+(id: 17,  time: 1338)
+(id: 18,  time: 1218)
+(id: 19,  time: 984)
+(id: 20,  time: 899)
+(id: 21,  time: 797)
+(id: 22,  time: 588)
+(id: 23,  time: 283)
+(id: 24,  time: 217)
+(id: 25,  time: 110)
+(id: 26,  time: 81)
+(id: 27,  time: 73)
+(id: 28,  time: 65)
+(id: 29,  time: 60)
+(id: 30,  time: 59)
+(id: 31,  time: 59)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 2
+Execution time: 14472 ms
+Workloads:
+(id: 0,  time: 14472)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 2
+Execution time: 7402 ms
+Workloads:
+(id: 0,  time: 7402)
+(id: 1,  time: 7390)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 2
+Execution time: 4853 ms
+Workloads:
+(id: 0,  time: 4846)
+(id: 1,  time: 2632)
+(id: 2,  time: 2570)
+(id: 3,  time: 4853)
+
+Done!
+Program execution completed
+
+Running program with p = 8 and g = 2
+Execution time: 2709 ms
+Workloads:
+(id: 0,  time: 2709)
+(id: 1,  time: 2132)
+(id: 2,  time: 1673)
+(id: 3,  time: 972)
+(id: 4,  time: 968)
+(id: 5,  time: 1678)
+(id: 6,  time: 2144)
+(id: 7,  time: 2705)
+
+Done!
+Program execution completed
+
+Running program with p = 12 and g = 2
+Execution time: 1882 ms
+Workloads:
+(id: 0,  time: 1881)
+(id: 1,  time: 1720)
+(id: 2,  time: 1379)
+(id: 3,  time: 1197)
+(id: 4,  time: 999)
+(id: 5,  time: 559)
+(id: 6,  time: 578)
+(id: 7,  time: 974)
+(id: 8,  time: 1205)
+(id: 9,  time: 1347)
+(id: 10,  time: 1751)
+(id: 11,  time: 1877)
+
+Done!
+Program execution completed
+
+Running program with p = 16 and g = 2
+Execution time: 1473 ms
+Workloads:
+(id: 0,  time: 1472)
+(id: 1,  time: 1374)
+(id: 2,  time: 1212)
+(id: 3,  time: 1014)
+(id: 4,  time: 915)
+(id: 5,  time: 834)
+(id: 6,  time: 606)
+(id: 7,  time: 426)
+(id: 8,  time: 428)
+(id: 9,  time: 602)
+(id: 10,  time: 831)
+(id: 11,  time: 917)
+(id: 12,  time: 1012)
+(id: 13,  time: 1217)
+(id: 14,  time: 1375)
+(id: 15,  time: 1456)
+
+Done!
+Program execution completed
+
+Running program with p = 20 and g = 2
+Execution time: 1268 ms
+Workloads:
+(id: 0,  time: 1240)
+(id: 1,  time: 1208)
+(id: 2,  time: 1067)
+(id: 3,  time: 997)
+(id: 4,  time: 820)
+(id: 5,  time: 752)
+(id: 6,  time: 773)
+(id: 7,  time: 625)
+(id: 8,  time: 383)
+(id: 9,  time: 358)
+(id: 10,  time: 360)
+(id: 11,  time: 381)
+(id: 12,  time: 624)
+(id: 13,  time: 681)
+(id: 14,  time: 753)
+(id: 15,  time: 838)
+(id: 16,  time: 951)
+(id: 17,  time: 1145)
+(id: 18,  time: 1199)
+(id: 19,  time: 1267)
+
+Done!
+Program execution completed
+
+Running program with p = 24 and g = 2
+Execution time: 1116 ms
+Workloads:
+(id: 0,  time: 1048)
+(id: 1,  time: 948)
+(id: 2,  time: 924)
+(id: 3,  time: 864)
+(id: 4,  time: 721)
+(id: 5,  time: 810)
+(id: 6,  time: 743)
+(id: 7,  time: 705)
+(id: 8,  time: 688)
+(id: 9,  time: 453)
+(id: 10,  time: 273)
+(id: 11,  time: 306)
+(id: 12,  time: 384)
+(id: 13,  time: 340)
+(id: 14,  time: 533)
+(id: 15,  time: 612)
+(id: 16,  time: 579)
+(id: 17,  time: 695)
+(id: 18,  time: 800)
+(id: 19,  time: 825)
+(id: 20,  time: 988)
+(id: 21,  time: 981)
+(id: 22,  time: 1041)
+(id: 23,  time: 1114)
+
+Done!
+Program execution completed
+
+Running program with p = 28 and g = 2
+Execution time: 925 ms
+Workloads:
+(id: 0,  time: 924)
+(id: 1,  time: 923)
+(id: 2,  time: 835)
+(id: 3,  time: 884)
+(id: 4,  time: 711)
+(id: 5,  time: 723)
+(id: 6,  time: 698)
+(id: 7,  time: 665)
+(id: 8,  time: 622)
+(id: 9,  time: 582)
+(id: 10,  time: 539)
+(id: 11,  time: 415)
+(id: 12,  time: 275)
+(id: 13,  time: 264)
+(id: 14,  time: 339)
+(id: 15,  time: 265)
+(id: 16,  time: 420)
+(id: 17,  time: 559)
+(id: 18,  time: 535)
+(id: 19,  time: 633)
+(id: 20,  time: 659)
+(id: 21,  time: 710)
+(id: 22,  time: 713)
+(id: 23,  time: 824)
+(id: 24,  time: 765)
+(id: 25,  time: 888)
+(id: 26,  time: 874)
+(id: 27,  time: 912)
+
+Done!
+Program execution completed
+
+Running program with p = 32 and g = 2
+Execution time: 828 ms
+Workloads:
+(id: 0,  time: 802)
+(id: 1,  time: 828)
+(id: 2,  time: 770)
+(id: 3,  time: 793)
+(id: 4,  time: 761)
+(id: 5,  time: 723)
+(id: 6,  time: 649)
+(id: 7,  time: 632)
+(id: 8,  time: 584)
+(id: 9,  time: 580)
+(id: 10,  time: 486)
+(id: 11,  time: 498)
+(id: 12,  time: 483)
+(id: 13,  time: 368)
+(id: 14,  time: 250)
+(id: 15,  time: 269)
+(id: 16,  time: 292)
+(id: 17,  time: 266)
+(id: 18,  time: 300)
+(id: 19,  time: 427)
+(id: 20,  time: 521)
+(id: 21,  time: 491)
+(id: 22,  time: 549)
+(id: 23,  time: 575)
+(id: 24,  time: 545)
+(id: 25,  time: 639)
+(id: 26,  time: 671)
+(id: 27,  time: 770)
+(id: 28,  time: 787)
+(id: 29,  time: 807)
+(id: 30,  time: 801)
+(id: 31,  time: 787)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 4
+Execution time: 14388 ms
+Workloads:
+(id: 0,  time: 14388)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 4
+Execution time: 7226 ms
+Workloads:
+(id: 0,  time: 7226)
+(id: 1,  time: 7223)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 4
+Execution time: 3810 ms
+Workloads:
+(id: 0,  time: 3575)
+(id: 1,  time: 3664)
+(id: 2,  time: 3810)
+(id: 3,  time: 3720)
+
+Done!
+Program execution completed
+
+Running program with p = 8 and g = 4
+Execution time: 2032 ms
+Workloads:
+(id: 0,  time: 1806)
+(id: 1,  time: 1895)
+(id: 2,  time: 2032)
+(id: 3,  time: 1918)
+(id: 4,  time: 1918)
+(id: 5,  time: 1957)
+(id: 6,  time: 1976)
+(id: 7,  time: 1805)
+
+Done!
+Program execution completed
+
+Running program with p = 12 and g = 4
+Execution time: 1436 ms
+Workloads:
+(id: 0,  time: 1285)
+(id: 1,  time: 1197)
+(id: 2,  time: 1392)
+(id: 3,  time: 1436)
+(id: 4,  time: 1311)
+(id: 5,  time: 1277)
+(id: 6,  time: 1327)
+(id: 7,  time: 1261)
+(id: 8,  time: 1435)
+(id: 9,  time: 1344)
+(id: 10,  time: 1254)
+(id: 11,  time: 1278)
+
+Done!
+Program execution completed
+
+Running program with p = 16 and g = 4
+Execution time: 1078 ms
+Workloads:
+(id: 0,  time: 1019)
+(id: 1,  time: 947)
+(id: 2,  time: 950)
+(id: 3,  time: 1040)
+(id: 4,  time: 1078)
+(id: 5,  time: 1028)
+(id: 6,  time: 967)
+(id: 7,  time: 988)
+(id: 8,  time: 976)
+(id: 9,  time: 979)
+(id: 10,  time: 982)
+(id: 11,  time: 1063)
+(id: 12,  time: 1067)
+(id: 13,  time: 1009)
+(id: 14,  time: 917)
+(id: 15,  time: 991)
+
+Done!
+Program execution completed
+
+Running program with p = 20 and g = 4
+Execution time: 964 ms
+Workloads:
+(id: 0,  time: 934)
+(id: 1,  time: 931)
+(id: 2,  time: 727)
+(id: 3,  time: 804)
+(id: 4,  time: 844)
+(id: 5,  time: 864)
+(id: 6,  time: 830)
+(id: 7,  time: 773)
+(id: 8,  time: 791)
+(id: 9,  time: 787)
+(id: 10,  time: 786)
+(id: 11,  time: 790)
+(id: 12,  time: 926)
+(id: 13,  time: 827)
+(id: 14,  time: 866)
+(id: 15,  time: 953)
+(id: 16,  time: 955)
+(id: 17,  time: 867)
+(id: 18,  time: 911)
+(id: 19,  time: 963)
+
+Done!
+Program execution completed
+
+Running program with p = 24 and g = 4
+Execution time: 853 ms
+Workloads:
+(id: 0,  time: 785)
+(id: 1,  time: 796)
+(id: 2,  time: 754)
+(id: 3,  time: 774)
+(id: 4,  time: 680)
+(id: 5,  time: 705)
+(id: 6,  time: 722)
+(id: 7,  time: 848)
+(id: 8,  time: 791)
+(id: 9,  time: 787)
+(id: 10,  time: 666)
+(id: 11,  time: 652)
+(id: 12,  time: 652)
+(id: 13,  time: 664)
+(id: 14,  time: 779)
+(id: 15,  time: 754)
+(id: 16,  time: 852)
+(id: 17,  time: 845)
+(id: 18,  time: 834)
+(id: 19,  time: 829)
+(id: 20,  time: 742)
+(id: 21,  time: 648)
+(id: 22,  time: 783)
+(id: 23,  time: 793)
+
+Done!
+Program execution completed
+
+Running program with p = 28 and g = 4
+Execution time: 754 ms
+Workloads:
+(id: 0,  time: 687)
+(id: 1,  time: 690)
+(id: 2,  time: 677)
+(id: 3,  time: 527)
+(id: 4,  time: 673)
+(id: 5,  time: 693)
+(id: 6,  time: 597)
+(id: 7,  time: 739)
+(id: 8,  time: 729)
+(id: 9,  time: 732)
+(id: 10,  time: 570)
+(id: 11,  time: 655)
+(id: 12,  time: 687)
+(id: 13,  time: 693)
+(id: 14,  time: 633)
+(id: 15,  time: 652)
+(id: 16,  time: 698)
+(id: 17,  time: 604)
+(id: 18,  time: 677)
+(id: 19,  time: 696)
+(id: 20,  time: 739)
+(id: 21,  time: 753)
+(id: 22,  time: 727)
+(id: 23,  time: 726)
+(id: 24,  time: 698)
+(id: 25,  time: 648)
+(id: 26,  time: 660)
+(id: 27,  time: 696)
+
+Done!
+Program execution completed
+
+Running program with p = 32 and g = 4
+Execution time: 657 ms
+Workloads:
+(id: 0,  time: 591)
+(id: 1,  time: 625)
+(id: 2,  time: 597)
+(id: 3,  time: 600)
+(id: 4,  time: 564)
+(id: 5,  time: 589)
+(id: 6,  time: 614)
+(id: 7,  time: 635)
+(id: 8,  time: 645)
+(id: 9,  time: 646)
+(id: 10,  time: 650)
+(id: 11,  time: 634)
+(id: 12,  time: 621)
+(id: 13,  time: 603)
+(id: 14,  time: 606)
+(id: 15,  time: 598)
+(id: 16,  time: 601)
+(id: 17,  time: 607)
+(id: 18,  time: 568)
+(id: 19,  time: 599)
+(id: 20,  time: 607)
+(id: 21,  time: 605)
+(id: 22,  time: 610)
+(id: 23,  time: 650)
+(id: 24,  time: 650)
+(id: 25,  time: 653)
+(id: 26,  time: 655)
+(id: 27,  time: 625)
+(id: 28,  time: 614)
+(id: 29,  time: 587)
+(id: 30,  time: 574)
+(id: 31,  time: 595)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 8
+Execution time: 14386 ms
+Workloads:
+(id: 0,  time: 14386)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 8
+Execution time: 7214 ms
+Workloads:
+(id: 0,  time: 7214)
+(id: 1,  time: 7214)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 8
+Execution time: 3831 ms
+Workloads:
+(id: 0,  time: 3638)
+(id: 1,  time: 3831)
+(id: 2,  time: 3748)
+(id: 3,  time: 3540)
+
+Done!
+Program execution completed
+
+Running program with p = 8 and g = 8
+Execution time: 2064 ms
+Workloads:
+(id: 0,  time: 1916)
+(id: 1,  time: 1817)
+(id: 2,  time: 1871)
+(id: 3,  time: 1982)
+(id: 4,  time: 2064)
+(id: 5,  time: 1918)
+(id: 6,  time: 1827)
+(id: 7,  time: 1854)
+
+Done!
+Program execution completed
+
+Running program with p = 12 and g = 8
+Execution time: 1403 ms
+Workloads:
+(id: 0,  time: 1289)
+(id: 1,  time: 1284)
+(id: 2,  time: 1231)
+(id: 3,  time: 1276)
+(id: 4,  time: 1364)
+(id: 5,  time: 1387)
+(id: 6,  time: 1403)
+(id: 7,  time: 1348)
+(id: 8,  time: 1276)
+(id: 9,  time: 1212)
+(id: 10,  time: 1300)
+(id: 11,  time: 1285)
+
+Done!
+Program execution completed
+
+Running program with p = 16 and g = 8
+Execution time: 1072 ms
+Workloads:
+(id: 0,  time: 1045)
+(id: 1,  time: 988)
+(id: 2,  time: 975)
+(id: 3,  time: 964)
+(id: 4,  time: 943)
+(id: 5,  time: 961)
+(id: 6,  time: 999)
+(id: 7,  time: 1041)
+(id: 8,  time: 1066)
+(id: 9,  time: 1072)
+(id: 10,  time: 1065)
+(id: 11,  time: 1041)
+(id: 12,  time: 996)
+(id: 13,  time: 959)
+(id: 14,  time: 944)
+(id: 15,  time: 1016)
+
+Done!
+Program execution completed
+
+Running program with p = 20 and g = 8
+Execution time: 985 ms
+Workloads:
+(id: 0,  time: 833)
+(id: 1,  time: 951)
+(id: 2,  time: 793)
+(id: 3,  time: 927)
+(id: 4,  time: 887)
+(id: 5,  time: 757)
+(id: 6,  time: 802)
+(id: 7,  time: 830)
+(id: 8,  time: 849)
+(id: 9,  time: 860)
+(id: 10,  time: 984)
+(id: 11,  time: 848)
+(id: 12,  time: 832)
+(id: 13,  time: 917)
+(id: 14,  time: 759)
+(id: 15,  time: 773)
+(id: 16,  time: 765)
+(id: 17,  time: 932)
+(id: 18,  time: 949)
+(id: 19,  time: 934)
+
+Done!
+Program execution completed
+
+Running program with p = 24 and g = 8
+Execution time: 841 ms
+Workloads:
+(id: 0,  time: 756)
+(id: 1,  time: 816)
+(id: 2,  time: 785)
+(id: 3,  time: 807)
+(id: 4,  time: 776)
+(id: 5,  time: 697)
+(id: 6,  time: 630)
+(id: 7,  time: 628)
+(id: 8,  time: 805)
+(id: 9,  time: 659)
+(id: 10,  time: 784)
+(id: 11,  time: 699)
+(id: 12,  time: 840)
+(id: 13,  time: 714)
+(id: 14,  time: 730)
+(id: 15,  time: 822)
+(id: 16,  time: 840)
+(id: 17,  time: 831)
+(id: 18,  time: 812)
+(id: 19,  time: 811)
+(id: 20,  time: 772)
+(id: 21,  time: 770)
+(id: 22,  time: 652)
+(id: 23,  time: 767)
+
+Done!
+Program execution completed
+
+Running program with p = 28 and g = 8
+Execution time: 740 ms
+Workloads:
+(id: 0,  time: 681)
+(id: 1,  time: 708)
+(id: 2,  time: 705)
+(id: 3,  time: 702)
+(id: 4,  time: 695)
+(id: 5,  time: 588)
+(id: 6,  time: 668)
+(id: 7,  time: 666)
+(id: 8,  time: 661)
+(id: 9,  time: 676)
+(id: 10,  time: 714)
+(id: 11,  time: 591)
+(id: 12,  time: 599)
+(id: 13,  time: 723)
+(id: 14,  time: 613)
+(id: 15,  time: 713)
+(id: 16,  time: 740)
+(id: 17,  time: 730)
+(id: 18,  time: 703)
+(id: 19,  time: 717)
+(id: 20,  time: 701)
+(id: 21,  time: 681)
+(id: 22,  time: 677)
+(id: 23,  time: 653)
+(id: 24,  time: 675)
+(id: 25,  time: 684)
+(id: 26,  time: 686)
+(id: 27,  time: 693)
+
+Done!
+Program execution completed
+
+Running program with p = 32 and g = 8
+Execution time: 652 ms
+Workloads:
+(id: 0,  time: 572)
+(id: 1,  time: 597)
+(id: 2,  time: 579)
+(id: 3,  time: 584)
+(id: 4,  time: 589)
+(id: 5,  time: 606)
+(id: 6,  time: 612)
+(id: 7,  time: 616)
+(id: 8,  time: 607)
+(id: 9,  time: 589)
+(id: 10,  time: 583)
+(id: 11,  time: 579)
+(id: 12,  time: 598)
+(id: 13,  time: 605)
+(id: 14,  time: 608)
+(id: 15,  time: 609)
+(id: 16,  time: 624)
+(id: 17,  time: 603)
+(id: 18,  time: 627)
+(id: 19,  time: 635)
+(id: 20,  time: 642)
+(id: 21,  time: 640)
+(id: 22,  time: 651)
+(id: 23,  time: 642)
+(id: 24,  time: 647)
+(id: 25,  time: 650)
+(id: 26,  time: 645)
+(id: 27,  time: 636)
+(id: 28,  time: 628)
+(id: 29,  time: 625)
+(id: 30,  time: 620)
+(id: 31,  time: 624)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 16
+Execution time: 14481 ms
+Workloads:
+(id: 0,  time: 14481)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 16
+Execution time: 7465 ms
+Workloads:
+(id: 0,  time: 7465)
+(id: 1,  time: 7451)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 16
+Execution time: 3798 ms
+Workloads:
+(id: 0,  time: 3733)
+(id: 1,  time: 3586)
+(id: 2,  time: 3567)
+(id: 3,  time: 3798)
+
+Done!
+Program execution completed
+
+Running program with p = 8 and g = 16
+Execution time: 2000 ms
+Workloads:
+(id: 0,  time: 1989)
+(id: 1,  time: 2000)
+(id: 2,  time: 1922)
+(id: 3,  time: 1948)
+(id: 4,  time: 1829)
+(id: 5,  time: 1865)
+(id: 6,  time: 1834)
+(id: 7,  time: 1895)
+
+Done!
+Program execution completed
+
+Running program with p = 12 and g = 16
+Execution time: 1389 ms
+Workloads:
+(id: 0,  time: 1324)
+(id: 1,  time: 1332)
+(id: 2,  time: 1389)
+(id: 3,  time: 1385)
+(id: 4,  time: 1361)
+(id: 5,  time: 1292)
+(id: 6,  time: 1313)
+(id: 7,  time: 1238)
+(id: 8,  time: 1293)
+(id: 9,  time: 1248)
+(id: 10,  time: 1335)
+(id: 11,  time: 1303)
+
+Done!
+Program execution completed
+
+Running program with p = 16 and g = 16
+Execution time: 1019 ms
+Workloads:
+(id: 0,  time: 1008)
+(id: 1,  time: 984)
+(id: 2,  time: 986)
+(id: 3,  time: 999)
+(id: 4,  time: 1010)
+(id: 5,  time: 1010)
+(id: 6,  time: 1017)
+(id: 7,  time: 1018)
+(id: 8,  time: 1010)
+(id: 9,  time: 1011)
+(id: 10,  time: 999)
+(id: 11,  time: 984)
+(id: 12,  time: 984)
+(id: 13,  time: 992)
+(id: 14,  time: 993)
+(id: 15,  time: 1007)
+
+Done!
+Program execution completed
+
+Running program with p = 20 and g = 16
+Execution time: 969 ms
+Workloads:
+(id: 0,  time: 839)
+(id: 1,  time: 969)
+(id: 2,  time: 812)
+(id: 3,  time: 966)
+(id: 4,  time: 960)
+(id: 5,  time: 925)
+(id: 6,  time: 821)
+(id: 7,  time: 818)
+(id: 8,  time: 815)
+(id: 9,  time: 812)
+(id: 10,  time: 803)
+(id: 11,  time: 797)
+(id: 12,  time: 907)
+(id: 13,  time: 777)
+(id: 14,  time: 781)
+(id: 15,  time: 825)
+(id: 16,  time: 786)
+(id: 17,  time: 935)
+(id: 18,  time: 937)
+(id: 19,  time: 947)
+
+Done!
+Program execution completed
+
+Running program with p = 24 and g = 16
+Execution time: 827 ms
+Workloads:
+(id: 0,  time: 774)
+(id: 1,  time: 812)
+(id: 2,  time: 827)
+(id: 3,  time: 686)
+(id: 4,  time: 823)
+(id: 5,  time: 819)
+(id: 6,  time: 817)
+(id: 7,  time: 682)
+(id: 8,  time: 674)
+(id: 9,  time: 810)
+(id: 10,  time: 668)
+(id: 11,  time: 810)
+(id: 12,  time: 654)
+(id: 13,  time: 645)
+(id: 14,  time: 714)
+(id: 15,  time: 677)
+(id: 16,  time: 771)
+(id: 17,  time: 779)
+(id: 18,  time: 785)
+(id: 19,  time: 794)
+(id: 20,  time: 805)
+(id: 21,  time: 814)
+(id: 22,  time: 668)
+(id: 23,  time: 805)
+
+Done!
+Program execution completed
+
+Running program with p = 28 and g = 16
+Execution time: 717 ms
+Workloads:
+(id: 0,  time: 703)
+(id: 1,  time: 704)
+(id: 2,  time: 574)
+(id: 3,  time: 706)
+(id: 4,  time: 716)
+(id: 5,  time: 686)
+(id: 6,  time: 701)
+(id: 7,  time: 567)
+(id: 8,  time: 678)
+(id: 9,  time: 679)
+(id: 10,  time: 568)
+(id: 11,  time: 697)
+(id: 12,  time: 699)
+(id: 13,  time: 711)
+(id: 14,  time: 706)
+(id: 15,  time: 714)
+(id: 16,  time: 711)
+(id: 17,  time: 575)
+(id: 18,  time: 697)
+(id: 19,  time: 710)
+(id: 20,  time: 711)
+(id: 21,  time: 693)
+(id: 22,  time: 706)
+(id: 23,  time: 691)
+(id: 24,  time: 711)
+(id: 25,  time: 699)
+(id: 26,  time: 712)
+(id: 27,  time: 711)
+
+Done!
+Program execution completed
+
+Running program with p = 32 and g = 16
+Execution time: 635 ms
+Workloads:
+(id: 0,  time: 604)
+(id: 1,  time: 610)
+(id: 2,  time: 607)
+(id: 3,  time: 615)
+(id: 4,  time: 618)
+(id: 5,  time: 616)
+(id: 6,  time: 611)
+(id: 7,  time: 615)
+(id: 8,  time: 619)
+(id: 9,  time: 628)
+(id: 10,  time: 619)
+(id: 11,  time: 627)
+(id: 12,  time: 622)
+(id: 13,  time: 629)
+(id: 14,  time: 634)
+(id: 15,  time: 634)
+(id: 16,  time: 630)
+(id: 17,  time: 579)
+(id: 18,  time: 631)
+(id: 19,  time: 626)
+(id: 20,  time: 616)
+(id: 21,  time: 611)
+(id: 22,  time: 619)
+(id: 23,  time: 617)
+(id: 24,  time: 603)
+(id: 25,  time: 606)
+(id: 26,  time: 623)
+(id: 27,  time: 610)
+(id: 28,  time: 608)
+(id: 29,  time: 610)
+(id: 30,  time: 620)
+(id: 31,  time: 621)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 32
+Execution time: 14384 ms
+Workloads:
+(id: 0,  time: 14384)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 32
+Execution time: 7260 ms
+Workloads:
+(id: 0,  time: 7175)
+(id: 1,  time: 7260)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 32
+Execution time: 3752 ms
+Workloads:
+(id: 0,  time: 3726)
+(id: 1,  time: 3723)
+(id: 2,  time: 3657)
+(id: 3,  time: 3751)
+
+Done!
+Program execution completed
+
+Running program with p = 8 and g = 32
+Execution time: 1916 ms
+Workloads:
+(id: 0,  time: 1882)
+(id: 1,  time: 1871)
+(id: 2,  time: 1892)
+(id: 3,  time: 1861)
+(id: 4,  time: 1902)
+(id: 5,  time: 1915)
+(id: 6,  time: 1915)
+(id: 7,  time: 1890)
+
+Done!
+Program execution completed
+
+Running program with p = 12 and g = 32
+Execution time: 1350 ms
+Workloads:
+(id: 0,  time: 1298)
+(id: 1,  time: 1294)
+(id: 2,  time: 1336)
+(id: 3,  time: 1290)
+(id: 4,  time: 1343)
+(id: 5,  time: 1292)
+(id: 6,  time: 1342)
+(id: 7,  time: 1342)
+(id: 8,  time: 1343)
+(id: 9,  time: 1302)
+(id: 10,  time: 1349)
+(id: 11,  time: 1301)
+
+Done!
+Program execution completed
+
+Running program with p = 16 and g = 32
+Execution time: 1043 ms
+Workloads:
+(id: 0,  time: 1037)
+(id: 1,  time: 1000)
+(id: 2,  time: 999)
+(id: 3,  time: 994)
+(id: 4,  time: 993)
+(id: 5,  time: 989)
+(id: 6,  time: 989)
+(id: 7,  time: 1012)
+(id: 8,  time: 995)
+(id: 9,  time: 999)
+(id: 10,  time: 1024)
+(id: 11,  time: 1001)
+(id: 12,  time: 1003)
+(id: 13,  time: 1005)
+(id: 14,  time: 1012)
+(id: 15,  time: 1043)
+
+Done!
+Program execution completed
+
+Running program with p = 20 and g = 32
+Execution time: 962 ms
+Workloads:
+(id: 0,  time: 841)
+(id: 1,  time: 795)
+(id: 2,  time: 941)
+(id: 3,  time: 795)
+(id: 4,  time: 796)
+(id: 5,  time: 961)
+(id: 6,  time: 819)
+(id: 7,  time: 949)
+(id: 8,  time: 802)
+(id: 9,  time: 801)
+(id: 10,  time: 802)
+(id: 11,  time: 802)
+(id: 12,  time: 802)
+(id: 13,  time: 909)
+(id: 14,  time: 799)
+(id: 15,  time: 842)
+(id: 16,  time: 957)
+(id: 17,  time: 942)
+(id: 18,  time: 932)
+(id: 19,  time: 960)
+
+Done!
+Program execution completed
+
+Running program with p = 24 and g = 32
+Execution time: 822 ms
+Workloads:
+(id: 0,  time: 775)
+(id: 1,  time: 801)
+(id: 2,  time: 798)
+(id: 3,  time: 808)
+(id: 4,  time: 796)
+(id: 5,  time: 715)
+(id: 6,  time: 668)
+(id: 7,  time: 669)
+(id: 8,  time: 671)
+(id: 9,  time: 799)
+(id: 10,  time: 670)
+(id: 11,  time: 669)
+(id: 12,  time: 670)
+(id: 13,  time: 670)
+(id: 14,  time: 779)
+(id: 15,  time: 792)
+(id: 16,  time: 801)
+(id: 17,  time: 817)
+(id: 18,  time: 811)
+(id: 19,  time: 821)
+(id: 20,  time: 810)
+(id: 21,  time: 805)
+(id: 22,  time: 813)
+(id: 23,  time: 809)
+
+Done!
+Program execution completed
+
+Running program with p = 28 and g = 32
+Execution time: 714 ms
+Workloads:
+(id: 0,  time: 669)
+(id: 1,  time: 712)
+(id: 2,  time: 707)
+(id: 3,  time: 711)
+(id: 4,  time: 573)
+(id: 5,  time: 573)
+(id: 6,  time: 694)
+(id: 7,  time: 603)
+(id: 8,  time: 707)
+(id: 9,  time: 696)
+(id: 10,  time: 574)
+(id: 11,  time: 704)
+(id: 12,  time: 712)
+(id: 13,  time: 713)
+(id: 14,  time: 702)
+(id: 15,  time: 702)
+(id: 16,  time: 679)
+(id: 17,  time: 700)
+(id: 18,  time: 691)
+(id: 19,  time: 697)
+(id: 20,  time: 674)
+(id: 21,  time: 689)
+(id: 22,  time: 700)
+(id: 23,  time: 703)
+(id: 24,  time: 709)
+(id: 25,  time: 697)
+(id: 26,  time: 712)
+(id: 27,  time: 689)
+
+Done!
+Program execution completed
+
+Running program with p = 32 and g = 32
+Execution time: 648 ms
+Workloads:
+(id: 0,  time: 616)
+(id: 1,  time: 623)
+(id: 2,  time: 625)
+(id: 3,  time: 614)
+(id: 4,  time: 624)
+(id: 5,  time: 613)
+(id: 6,  time: 623)
+(id: 7,  time: 621)
+(id: 8,  time: 613)
+(id: 9,  time: 622)
+(id: 10,  time: 623)
+(id: 11,  time: 619)
+(id: 12,  time: 619)
+(id: 13,  time: 622)
+(id: 14,  time: 593)
+(id: 15,  time: 582)
+(id: 16,  time: 621)
+(id: 17,  time: 611)
+(id: 18,  time: 623)
+(id: 19,  time: 624)
+(id: 20,  time: 615)
+(id: 21,  time: 624)
+(id: 22,  time: 615)
+(id: 23,  time: 615)
+(id: 24,  time: 614)
+(id: 25,  time: 615)
+(id: 26,  time: 616)
+(id: 27,  time: 618)
+(id: 28,  time: 622)
+(id: 29,  time: 617)
+(id: 30,  time: 616)
+(id: 31,  time: 634)
+
+Done!
+Program execution completed
+
