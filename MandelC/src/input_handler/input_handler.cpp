@@ -5,8 +5,8 @@
 ArgParser::ArgParser(int argc, char** argv)
 :area(ComplexArea{Interval{-2, 1}, 
                     Interval{-1.5, 1.5}}),
-    resolution(Resolution{4320, 7680}), 
-    max_iterations(256) {
+    resolution(Resolution{2160, 3840}), 
+    max_iterations(40) {
 
     if(argc != 3) { 
         std::cerr << "Usage: " << argv[0] << 
