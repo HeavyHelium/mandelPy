@@ -8,7 +8,7 @@ Generating the Mandelbrot set in ***C++***.
 ### For help running: 
 
 ```sh
-python3 src/run.py --help
+python3 run.py --help
 ```
 
 
