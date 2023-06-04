@@ -1,5 +1,11 @@
 #include "../utils/utils.h"
 #include "../mandel_generator/mandel_generator.h"
+#include <string>
+
+enum class Mode { 
+    TEST, 
+    RUN,
+};
 
 struct ArgParser { 
     ArgParser(int argc, char** argv);
@@ -10,6 +16,7 @@ struct ArgParser {
     int max_iterations;
     ComplexArea area;
     Resolution resolution;
+    Mode mode;
 };
 
 struct InputHandler { 

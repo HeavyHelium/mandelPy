@@ -1,0 +1,756 @@
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 1882 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 1882)
+
+Done!
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 1866 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 1866)
+
+Done!
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 1837 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 1837)
+
+Done!
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 1838 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 1838)
+
+Done!
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 1880 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 1880)
+
+Done!
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 1861 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 1861)
+
+Done!
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 1860 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 1860)
+
+Done!
+
+Testing...
+Running with p = 2, g = 2
+Computation time: 968 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 968)
+(id: 1,  time: 965)
+
+Done!
+
+Testing...
+Running with p = 2, g = 2
+Computation time: 944 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 939)
+(id: 1,  time: 944)
+
+Done!
+
+Testing...
+Running with p = 2, g = 2
+Computation time: 925 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 925)
+(id: 1,  time: 923)
+
+Done!
+
+Testing...
+Running with p = 2, g = 2
+Computation time: 949 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 949)
+(id: 1,  time: 944)
+
+Done!
+
+Testing...
+Running with p = 2, g = 2
+Computation time: 934 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 934)
+(id: 1,  time: 933)
+
+Done!
+
+Testing...
+Running with p = 2, g = 2
+Computation time: 927 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 927)
+(id: 1,  time: 925)
+
+Done!
+
+Testing...
+Running with p = 2, g = 2
+Computation time: 943 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 942)
+(id: 1,  time: 943)
+
+Done!
+
+Testing...
+Running with p = 3, g = 3
+Computation time: 698 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 663)
+(id: 1,  time: 698)
+(id: 2,  time: 661)
+
+Done!
+
+Testing...
+Running with p = 3, g = 3
+Computation time: 704 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 665)
+(id: 1,  time: 704)
+(id: 2,  time: 666)
+
+Done!
+
+Testing...
+Running with p = 3, g = 3
+Computation time: 699 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 664)
+(id: 1,  time: 699)
+(id: 2,  time: 664)
+
+Done!
+
+Testing...
+Running with p = 3, g = 3
+Computation time: 765 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 721)
+(id: 1,  time: 764)
+(id: 2,  time: 718)
+
+Done!
+
+Testing...
+Running with p = 3, g = 3
+Computation time: 760 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 716)
+(id: 1,  time: 760)
+(id: 2,  time: 714)
+
+Done!
+
+Testing...
+Running with p = 3, g = 3
+Computation time: 804 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 755)
+(id: 1,  time: 804)
+(id: 2,  time: 757)
+
+Done!
+
+Testing...
+Running with p = 3, g = 3
+Computation time: 778 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 733)
+(id: 1,  time: 778)
+(id: 2,  time: 733)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 583 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 567)
+(id: 1,  time: 582)
+(id: 2,  time: 583)
+(id: 3,  time: 566)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 571 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 555)
+(id: 1,  time: 571)
+(id: 2,  time: 570)
+(id: 3,  time: 554)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 586 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 586)
+(id: 1,  time: 582)
+(id: 2,  time: 584)
+(id: 3,  time: 577)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 605 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 592)
+(id: 1,  time: 602)
+(id: 2,  time: 605)
+(id: 3,  time: 586)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 576 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 560)
+(id: 1,  time: 576)
+(id: 2,  time: 575)
+(id: 3,  time: 560)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 616 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 594)
+(id: 1,  time: 611)
+(id: 2,  time: 615)
+(id: 3,  time: 597)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 606 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 582)
+(id: 1,  time: 605)
+(id: 2,  time: 606)
+(id: 3,  time: 590)
+
+Done!
+
+Testing...
+Running with p = 5, g = 5
+Computation time: 663 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 484)
+(id: 1,  time: 559)
+(id: 2,  time: 663)
+(id: 3,  time: 554)
+(id: 4,  time: 606)
+
+Done!
+
+Testing...
+Running with p = 5, g = 5
+Computation time: 490 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 478)
+(id: 1,  time: 450)
+(id: 2,  time: 489)
+(id: 3,  time: 449)
+(id: 4,  time: 482)
+
+Done!
+
+Testing...
+Running with p = 5, g = 5
+Computation time: 493 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 480)
+(id: 1,  time: 453)
+(id: 2,  time: 493)
+(id: 3,  time: 453)
+(id: 4,  time: 484)
+
+Done!
+
+Testing...
+Running with p = 5, g = 5
+Computation time: 491 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 479)
+(id: 1,  time: 450)
+(id: 2,  time: 491)
+(id: 3,  time: 450)
+(id: 4,  time: 483)
+
+Done!
+
+Testing...
+Running with p = 5, g = 5
+Computation time: 510 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 495)
+(id: 1,  time: 468)
+(id: 2,  time: 510)
+(id: 3,  time: 468)
+(id: 4,  time: 499)
+
+Done!
+
+Testing...
+Running with p = 5, g = 5
+Computation time: 497 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 480)
+(id: 1,  time: 456)
+(id: 2,  time: 496)
+(id: 3,  time: 454)
+(id: 4,  time: 485)
+
+Done!
+
+Testing...
+Running with p = 5, g = 5
+Computation time: 502 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 484)
+(id: 1,  time: 456)
+(id: 2,  time: 502)
+(id: 3,  time: 458)
+(id: 4,  time: 488)
+
+Done!
+
+Testing...
+Running with p = 6, g = 6
+Computation time: 479 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 452)
+(id: 1,  time: 376)
+(id: 2,  time: 432)
+(id: 3,  time: 352)
+(id: 4,  time: 407)
+(id: 5,  time: 479)
+
+Done!
+
+Testing...
+Running with p = 6, g = 6
+Computation time: 456 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 455)
+(id: 1,  time: 376)
+(id: 2,  time: 422)
+(id: 3,  time: 375)
+(id: 4,  time: 416)
+(id: 5,  time: 456)
+
+Done!
+
+Testing...
+Running with p = 6, g = 6
+Computation time: 478 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 452)
+(id: 1,  time: 455)
+(id: 2,  time: 347)
+(id: 3,  time: 352)
+(id: 4,  time: 416)
+(id: 5,  time: 478)
+
+Done!
+
+Testing...
+Running with p = 6, g = 6
+Computation time: 481 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 447)
+(id: 1,  time: 461)
+(id: 2,  time: 346)
+(id: 3,  time: 349)
+(id: 4,  time: 405)
+(id: 5,  time: 480)
+
+Done!
+
+Testing...
+Running with p = 6, g = 6
+Computation time: 476 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 447)
+(id: 1,  time: 454)
+(id: 2,  time: 343)
+(id: 3,  time: 347)
+(id: 4,  time: 410)
+(id: 5,  time: 476)
+
+Done!
+
+Testing...
+Running with p = 6, g = 6
+Computation time: 474 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 443)
+(id: 1,  time: 454)
+(id: 2,  time: 340)
+(id: 3,  time: 343)
+(id: 4,  time: 401)
+(id: 5,  time: 473)
+
+Done!
+
+Testing...
+Running with p = 6, g = 6
+Computation time: 471 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 449)
+(id: 1,  time: 448)
+(id: 2,  time: 348)
+(id: 3,  time: 352)
+(id: 4,  time: 406)
+(id: 5,  time: 471)
+
+Done!
+
+Testing...
+Running with p = 7, g = 7
+Computation time: 406 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 359)
+(id: 1,  time: 397)
+(id: 2,  time: 406)
+(id: 3,  time: 328)
+(id: 4,  time: 366)
+(id: 5,  time: 405)
+(id: 6,  time: 389)
+
+Done!
+
+Testing...
+Running with p = 7, g = 7
+Computation time: 416 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 375)
+(id: 1,  time: 408)
+(id: 2,  time: 414)
+(id: 3,  time: 373)
+(id: 4,  time: 375)
+(id: 5,  time: 416)
+(id: 6,  time: 394)
+
+Done!
+
+Testing...
+Running with p = 7, g = 7
+Computation time: 446 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 370)
+(id: 1,  time: 417)
+(id: 2,  time: 428)
+(id: 3,  time: 377)
+(id: 4,  time: 418)
+(id: 5,  time: 445)
+(id: 6,  time: 389)
+
+Done!
+
+Testing...
+Running with p = 7, g = 7
+Computation time: 474 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 379)
+(id: 1,  time: 473)
+(id: 2,  time: 428)
+(id: 3,  time: 437)
+(id: 4,  time: 468)
+(id: 5,  time: 474)
+(id: 6,  time: 415)
+
+Done!
+
+Testing...
+Running with p = 7, g = 7
+Computation time: 423 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 367)
+(id: 1,  time: 413)
+(id: 2,  time: 411)
+(id: 3,  time: 345)
+(id: 4,  time: 376)
+(id: 5,  time: 423)
+(id: 6,  time: 400)
+
+Done!
+
+Testing...
+Running with p = 7, g = 7
+Computation time: 400 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 350)
+(id: 1,  time: 390)
+(id: 2,  time: 399)
+(id: 3,  time: 323)
+(id: 4,  time: 359)
+(id: 5,  time: 398)
+(id: 6,  time: 382)
+
+Done!
+
+Testing...
+Running with p = 7, g = 7
+Computation time: 407 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 356)
+(id: 1,  time: 398)
+(id: 2,  time: 406)
+(id: 3,  time: 335)
+(id: 4,  time: 367)
+(id: 5,  time: 406)
+(id: 6,  time: 390)
+
+Done!
+
+Testing...
+Running with p = 8, g = 8
+Computation time: 385 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 364)
+(id: 1,  time: 349)
+(id: 2,  time: 353)
+(id: 3,  time: 385)
+(id: 4,  time: 368)
+(id: 5,  time: 353)
+(id: 6,  time: 344)
+(id: 7,  time: 366)
+
+Done!
+
+Testing...
+Running with p = 8, g = 8
+Computation time: 376 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 372)
+(id: 1,  time: 338)
+(id: 2,  time: 364)
+(id: 3,  time: 376)
+(id: 4,  time: 374)
+(id: 5,  time: 341)
+(id: 6,  time: 336)
+(id: 7,  time: 347)
+
+Done!
+
+Testing...
+Running with p = 8, g = 8
+Computation time: 428 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 368)
+(id: 1,  time: 337)
+(id: 2,  time: 369)
+(id: 3,  time: 428)
+(id: 4,  time: 388)
+(id: 5,  time: 349)
+(id: 6,  time: 361)
+(id: 7,  time: 367)
+
+Done!
+
+Testing...
+Running with p = 8, g = 8
+Computation time: 452 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 392)
+(id: 1,  time: 447)
+(id: 2,  time: 374)
+(id: 3,  time: 452)
+(id: 4,  time: 447)
+(id: 5,  time: 398)
+(id: 6,  time: 387)
+(id: 7,  time: 411)
+
+Done!
+
+Testing...
+Running with p = 8, g = 8
+Computation time: 387 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 332)
+(id: 1,  time: 348)
+(id: 2,  time: 360)
+(id: 3,  time: 386)
+(id: 4,  time: 376)
+(id: 5,  time: 360)
+(id: 6,  time: 350)
+(id: 7,  time: 386)
+
+Done!
+
+Testing...
+Running with p = 8, g = 8
+Computation time: 361 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 312)
+(id: 1,  time: 326)
+(id: 2,  time: 333)
+(id: 3,  time: 360)
+(id: 4,  time: 331)
+(id: 5,  time: 334)
+(id: 6,  time: 326)
+(id: 7,  time: 340)
+
+Done!
+
+Testing...
+Running with p = 8, g = 8
+Computation time: 394 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 340)
+(id: 1,  time: 362)
+(id: 2,  time: 392)
+(id: 3,  time: 393)
+(id: 4,  time: 384)
+(id: 5,  time: 365)
+(id: 6,  time: 357)
+(id: 7,  time: 371)
+
+Done!
+Running with p=1 and g=1
+Running with p=1 and g=2
+Running with p=1 and g=4
+Running with p=1 and g=8
+Running with p=1 and g=16
+Running with p=1 and g=32
+Running with p=1 and g=64
+Running with p=2 and g=1
+Running with p=2 and g=2
+Running with p=2 and g=4
+Running with p=2 and g=8
+Running with p=2 and g=16
+Running with p=2 and g=32
+Running with p=2 and g=64
+Running with p=3 and g=1
+Running with p=3 and g=2
+Running with p=3 and g=4
+Running with p=3 and g=8
+Running with p=3 and g=16
+Running with p=3 and g=32
+Running with p=3 and g=64
+Running with p=4 and g=1
+Running with p=4 and g=2
+Running with p=4 and g=4
+Running with p=4 and g=8
+Running with p=4 and g=16
+Running with p=4 and g=32
+Running with p=4 and g=64
+Running with p=5 and g=1
+Running with p=5 and g=2
+Running with p=5 and g=4
+Running with p=5 and g=8
+Running with p=5 and g=16
+Running with p=5 and g=32
+Running with p=5 and g=64
+Running with p=6 and g=1
+Running with p=6 and g=2
+Running with p=6 and g=4
+Running with p=6 and g=8
+Running with p=6 and g=16
+Running with p=6 and g=32
+Running with p=6 and g=64
+Running with p=7 and g=1
+Running with p=7 and g=2
+Running with p=7 and g=4
+Running with p=7 and g=8
+Running with p=7 and g=16
+Running with p=7 and g=32
+Running with p=7 and g=64
+Running with p=8 and g=1
+Running with p=8 and g=2
+Running with p=8 and g=4
+Running with p=8 and g=8
+Running with p=8 and g=16
+Running with p=8 and g=32
+Running with p=8 and g=64

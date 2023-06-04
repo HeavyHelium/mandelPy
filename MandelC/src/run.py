@@ -1,43 +1,84 @@
 import argparse
 import os 
-
+import multiprocessing
+from vis import MandelSet
 
 class ArgParser:
 
     descriptions: dict[str, str] = {
         'overall': """ Generates the Mandelbrot set, 
-         based on the given parameters, namely 
-         granularity, parallelism, and the number of iterations.
-         The resolution is fixed to 3840x2160.
+         based on the given parameters.
          """,
         'granularity': 'The granularity of the subproblems',
         'parallelism': 'The number of workers to be used', 
         'iterations': 'The number of iterations to be used',
-        'area': 'The area of the complex plane to be used,\n in the format: x_min x_max y_min y_max',
-        'output': 'The output file to be used for the image', 
-        'resolution': 'The resolution of the image to be generated, in the format: width height',
+        'output': 'The output file to be used for the image matrix', 
+        'area': 'The area of the complex plane to be investigated',
+        'save': 'The output file to be used for the image',  
+        'resolution': 'The resolution of the image to be generated',
+        'mode': 'The mode to be used for the generation. Either test or generation.',
+        'vis': 'To chose the way of visualization. Either cosine fractional mapping, i.e. cos or normal.'
     }
 
 
     def __init__(self) -> None: 
         self.parser = argparse.ArgumentParser(description=ArgParser.descriptions['overall'])
         
-        self.parser.add_argument('-g', '--granularity', type=int, 
-                                 default=12, help=ArgParser.descriptions['granularity'])
-        self.parser.add_argument('-p', '--parallelism', type=int, 
-                                 default=4, help=ArgParser.descriptions['parallelism'])
-        self.parser.add_argument('-i', '--iterations', type=int, 
-                                 default=256, help=ArgParser.descriptions['iterations'])
+        self.parser.add_argument('-g', '--granularity', 
+                                 type=int, default=12, 
+                                 help=ArgParser.descriptions['granularity'])
+        self.parser.add_argument('-p', '--parallelism', 
+                                 type=int, default=4, 
+                                 help=ArgParser.descriptions['parallelism'])
         
-        self.parser.add_argument('-a', '--area', type=float, nargs=4,
-                                  default=[-2.5, 1, -1.5, 1.5], help=ArgParser.descriptions['area'])
-        self.parser.add_argument('-o', '--output', type=str,
-                                 default=os.path.join(os.getcwd(), 'mandel_res.png'), 
+        self.parser.add_argument('-i', '--iterations', 
+                                 type=int, default=256, 
+                                 help=ArgParser.descriptions['iterations'])
+        
+        self.parser.add_argument('-a', '--area', 
+                                 metavar=('X_MIN', 'X_MAX', 'Y_MIN', 'Y_MAX'),
+                                 type=float, nargs=4,
+                                 default=[-2.5, 1, -1.5, 1.5], 
+                                 help=ArgParser.descriptions['area'])
+        
+        self.parser.add_argument('-o', '--output', 
+                                 type=str, default=os.path.join(os.getcwd(), 'mandel_res.png'), 
                                  help=ArgParser.descriptions['output'])
-        self.parser.add_argument('-r', '--resolution', type=int, nargs=2,
-                                  default=[3840, 2160], help=ArgParser.descriptions['resolution'])
+        
+        self.parser.add_argument('-r', '--resolution',
+                                 metavar=('WIDTH', 'HEIGHT'), 
+                                 type=int, nargs=2,
+                                 default=[3840, 2160], 
+                                 help=ArgParser.descriptions['resolution'])
+        self.parser.add_argument('-m', '--mode', 
+                                 type=str, default='generation', 
+                                 help=ArgParser.descriptions['mode'])
+        self.parser.add_argument('-v', '--vis',
+                                 metavar=('TYPE'),
+                                 type=str, default='normal',
+                                 help=ArgParser.descriptions['vis'])
+
+        self.parser.add_argument('-s', '--save',
+                                 metavar=('FILENAME'),
+                                 type=str, default='mandel_res.png',
+                                 help=ArgParser.descriptions['save'])
 
         self.args = self.parser.parse_args()
+        
+        if self.args.mode not in ['generation', 'test']:
+            raise ValueError(f"Invalid mode: {self.args.mode}")
+        
+    @property
+    def save(self) -> str:
+        return self.args.save
+
+    @property
+    def vis(self) -> str:
+        return self.args.vis
+
+    @property
+    def mode(self) -> str:
+        return self.args.mode
     
     @property
     def granularity(self) -> int:
@@ -51,13 +92,57 @@ class ArgParser:
     def iterations(self) -> int:
         return self.args.iterations
     
+    @property
+    def area(self) -> list[float]:
+        return self.args.area
+    
+    @property
+    def output(self) -> str:
+        return self.args.output
+    
+    @property
+    def resolution(self) -> list[int]:
+        return self.args.resolution
+    
+    
     def print_help(self) -> None:
         self.parser.print_help()
 
-"""
-TODO: implement class to run the c++ code 
-modify the c++ code to accept the arguments
-"""
+def to_nums(lst): 
+    return " ".join(str(elem) for elem in lst)
+
+class MandelbrotRunner: 
+    def __init__(self, args: ArgParser) -> None:
+        self.args = args
+
+    def run(self) -> None:
+        if self.args.mode == 'test':
+            for p in range(1, multiprocessing.cpu_count() + 1):
+                for g in [1, 2, 4, 8, 16, 32, 64]:
+                    os.system(f"bash -c 'g++ main.cpp utils/utils.cpp mandel_generator/mandel_generator.cpp\
+                                input_handler/input_handler.cpp -std=c++17 -pthread && \
+                                ./a.out {p} {g} {to_nums(self.args.area)} {to_nums(self.args.resolution)} \
+                                {self.args.iterations} test'")
+
+        else:
+            os.system(f"bash -c 'g++ main.cpp utils/utils.cpp mandel_generator/mandel_generator.cpp\
+                        input_handler/input_handler.cpp -std=c++17 -pthread && \
+                        ./a.out {self.args.parallelism} {self.args.parallelism} \
+                                {to_nums(self.args.area)} {to_nums(self.args.resolution)} \
+                                {self.args.iterations} run'")
+            if self.args.vis == 'cos':
+                m = MandelSet(cos_mapping=True)
+                if self.args.save:
+                    m.save(self.args.save)
+                m.show()
+            else: 
+                m = MandelSet()
+                if self.args.save:
+                    m.save(self.args.save)
+                m.show()
+        
+        os.system("bash -c 'rm a.out'")
+        os.system("bash -c 'rm ../matrix.txt'")
 
 if __name__ == "__main__": 
-    arg_parser = ArgParser()
+    MandelbrotRunner(ArgParser()).run()

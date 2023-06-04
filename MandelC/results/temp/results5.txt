@@ -1,0 +1,228 @@
+Running program with p = 1 and g = 1
+Execution time: 8544 ms
+Workloads:
+(id: 0,  time: 8544)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 1
+Execution time: 4372 ms
+Workloads:
+(id: 0,  time: 4316)
+(id: 1,  time: 4371)
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 1
+Execution time: 6885 ms
+Workloads:
+(id: 0,  time: 973)
+(id: 1,  time: 6885)
+(id: 2,  time: 975)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 1
+Execution time: 4259 ms
+Workloads:
+(id: 0,  time: 234)
+(id: 1,  time: 4249)
+(id: 2,  time: 4259)
+(id: 3,  time: 235)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 2
+Execution time: 8541 ms
+Workloads:
+(id: 0,  time: 8541)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 2
+Execution time: 4332 ms
+Workloads:
+(id: 0,  time: 4332)
+(id: 1,  time: 4320)
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 2
+Execution time: 3639 ms
+Workloads:
+(id: 0,  time: 3639)
+(id: 1,  time: 1800)
+(id: 2,  time: 3632)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 2
+Execution time: 2972 ms
+Workloads:
+(id: 0,  time: 2971)
+(id: 1,  time: 1611)
+(id: 2,  time: 1610)
+(id: 3,  time: 2968)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 4
+Execution time: 8532 ms
+Workloads:
+(id: 0,  time: 8532)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 4
+Execution time: 4324 ms
+Workloads:
+(id: 0,  time: 4323)
+(id: 1,  time: 4322)
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 4
+Execution time: 3157 ms
+Workloads:
+(id: 0,  time: 3157)
+(id: 1,  time: 3074)
+(id: 2,  time: 3157)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 4
+Execution time: 2379 ms
+Workloads:
+(id: 0,  time: 2325)
+(id: 1,  time: 2379)
+(id: 2,  time: 2375)
+(id: 3,  time: 2321)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 8
+Execution time: 8549 ms
+Workloads:
+(id: 0,  time: 8549)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 8
+Execution time: 4309 ms
+Workloads:
+(id: 0,  time: 4306)
+(id: 1,  time: 4309)
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 8
+Execution time: 3297 ms
+Workloads:
+(id: 0,  time: 3040)
+(id: 1,  time: 3297)
+(id: 2,  time: 3037)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 8
+Execution time: 2409 ms
+Workloads:
+(id: 0,  time: 2283)
+(id: 1,  time: 2406)
+(id: 2,  time: 2409)
+(id: 3,  time: 2281)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 16
+Execution time: 8578 ms
+Workloads:
+(id: 0,  time: 8578)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 16
+Execution time: 4377 ms
+Workloads:
+(id: 0,  time: 4377)
+(id: 1,  time: 4369)
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 16
+Execution time: 3197 ms
+Workloads:
+(id: 0,  time: 3197)
+(id: 1,  time: 2988)
+(id: 2,  time: 3194)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 16
+Execution time: 2423 ms
+Workloads:
+(id: 0,  time: 2422)
+(id: 1,  time: 2331)
+(id: 2,  time: 2244)
+(id: 3,  time: 2394)
+
+Done!
+Program execution completed
+
+Running program with p = 1 and g = 32
+Execution time: 8584 ms
+Workloads:
+(id: 0,  time: 8584)
+
+Done!
+Program execution completed
+
+Running program with p = 2 and g = 32
+Execution time: 4410 ms
+Workloads:
+(id: 0,  time: 4359)
+(id: 1,  time: 4410)
+
+Done!
+Program execution completed
+
+Running program with p = 3 and g = 32
+Execution time: 3174 ms
+Workloads:
+(id: 0,  time: 3110)
+(id: 1,  time: 3174)
+(id: 2,  time: 3110)
+
+Done!
+Program execution completed
+
+Running program with p = 4 and g = 32
+Execution time: 2399 ms
+Workloads:
+(id: 0,  time: 2378)
+(id: 1,  time: 2374)
+(id: 2,  time: 2379)
+(id: 3,  time: 2399)
+
+Done!
+Program execution completed
+

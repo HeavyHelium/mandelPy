@@ -116,7 +116,7 @@ void computeSet(Matrix& image,
 
     auto end_time = std::chrono::high_resolution_clock::now();
 
-    std::cout << "Execution time: " 
+    std::cout << "Computation time: " 
               << std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time).count() 
               << " ms" << std::endl;
 }

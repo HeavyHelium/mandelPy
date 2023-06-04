@@ -1,0 +1,12 @@
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 1943 ms
+Writing to ../matrix.txt
+Workloads:
+(id: 0,  time: 1943)
+
+Done!
+
+Testing...
+Running with p = 1, g = 1
