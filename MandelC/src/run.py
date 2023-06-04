@@ -60,7 +60,7 @@ class ArgParser:
 
         self.parser.add_argument('-s', '--save',
                                  metavar=('FILENAME'),
-                                 type=str, default='mandel_res.png',
+                                 type=str, default='',
                                  help=ArgParser.descriptions['save'])
 
         self.args = self.parser.parse_args()
