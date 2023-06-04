@@ -24,4 +24,4 @@ python3 src/vis.py
 The output should be somthing of the kind\:  
 
 
-![MandelBrotSet](./picture.png)
+![MandelBrotSet](./image2.png)
