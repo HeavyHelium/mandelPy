@@ -85,7 +85,10 @@ void computeSet(Matrix& image,
     int width = image[0].size();
     int height = image.size();
 
-    int size = height / (num_workers * granularity);
+    const auto processor_count = std::thread::hardware_concurrency();
+
+    int size = height / (processor_count * granularity); // the number of subtasks in total 
+                                                         // is processor_count * granularity
 
     std::vector<std::thread> threads;
     
