@@ -1,4 +1,4 @@
-# MandelC
+# MandelS
 
 Generating the Mandelbrot set in ***C++***.  
 \* *The calculations are performed in C++ and the visualization and CLI are implemented in Python.* 
