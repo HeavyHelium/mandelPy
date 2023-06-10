@@ -149,7 +149,7 @@ const Workloads& MandelGenerator::get_workloads() const {
 
 
 int MandelGenerator::subtasks_cnt() const { 
-    return parallelism * granularity;
+    return std::thread::hardware_concurrency() * granularity;
 }
 
 std::ostream& operator<<(std::ostream& os, 
