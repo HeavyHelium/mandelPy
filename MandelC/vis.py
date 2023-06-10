@@ -18,7 +18,7 @@ class MandelSet:
         self.cos_mapping = cos_mapping
         self.__parse_file()
 
-    def __parse_file(self, filename="../matrix.txt"):
+    def __parse_file(self, filename="matrix.txt"):
         with open(filename, 'r') as file:
             width = int(file.readline())
             x_min, x_max, y_min, y_max = map(float, file.readline().split())

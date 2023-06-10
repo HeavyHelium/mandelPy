@@ -20,7 +20,7 @@ struct ArgParser {
 };
 
 struct InputHandler { 
-    InputHandler(int argc, char** argv, std::string output_file="../matrix.txt");
+    InputHandler(int argc, char** argv, std::string output_file="matrix.txt");
 
     void handle();
 

@@ -54,11 +54,14 @@ void run_worker(Matrix& image,
     
     int num_rows = image.size();
 
-    for(int i = id * size; 
+    for(long long int i = id * size; 
             i + size <= num_rows; 
             i += num_workers * size) { 
         
-        for (int j = 0; j < size; ++j) { 
+        for (int j = 0; j < size; ++j) {
+            if(j > num_rows - 1) { 
+                break;
+            }  
             generateMandelbrotRow(i + j, image, 
                                   area, max_iterations);
         }

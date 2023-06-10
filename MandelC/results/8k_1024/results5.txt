@@ -1,0 +1,651 @@
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 44738 ms
+Workloads:
+(id: 0,  time: 44738)
+
+Done!
+
+Testing...
+Running with p = 2, g = 1
+Computation time: 22876 ms
+Workloads:
+(id: 0,  time: 22876)
+(id: 1,  time: 22869)
+
+Done!
+
+Testing...
+Running with p = 4, g = 1
+Computation time: 11561 ms
+Workloads:
+(id: 0,  time: 10987)
+(id: 1,  time: 11561)
+(id: 2,  time: 11486)
+(id: 3,  time: 10886)
+
+Done!
+
+Testing...
+Running with p = 8, g = 1
+Computation time: 6072 ms
+Workloads:
+(id: 0,  time: 5761)
+(id: 1,  time: 5984)
+(id: 2,  time: 6072)
+(id: 3,  time: 5704)
+(id: 4,  time: 5884)
+(id: 5,  time: 6071)
+(id: 6,  time: 5990)
+(id: 7,  time: 5573)
+
+Done!
+
+Testing...
+Running with p = 12, g = 1
+Computation time: 4855 ms
+Workloads:
+(id: 0,  time: 3721)
+(id: 1,  time: 4030)
+(id: 2,  time: 4481)
+(id: 3,  time: 4740)
+(id: 4,  time: 4855)
+(id: 5,  time: 4483)
+(id: 6,  time: 4033)
+(id: 7,  time: 3620)
+(id: 8,  time: 3385)
+(id: 9,  time: 3871)
+(id: 10,  time: 3995)
+(id: 11,  time: 3280)
+
+Done!
+
+Testing...
+Running with p = 16, g = 1
+Computation time: 4743 ms
+Workloads:
+(id: 0,  time: 4743)
+(id: 1,  time: 4422)
+(id: 2,  time: 3846)
+(id: 3,  time: 3163)
+(id: 4,  time: 2838)
+(id: 5,  time: 2532)
+(id: 6,  time: 1620)
+(id: 7,  time: 1069)
+(id: 8,  time: 1075)
+(id: 9,  time: 1607)
+(id: 10,  time: 2544)
+(id: 11,  time: 2843)
+(id: 12,  time: 3171)
+(id: 13,  time: 3833)
+(id: 14,  time: 4451)
+(id: 15,  time: 4704)
+
+Done!
+
+Testing...
+Running with p = 20, g = 1
+Computation time: 4699 ms
+Workloads:
+(id: 0,  time: 2868)
+(id: 1,  time: 2641)
+(id: 2,  time: 1547)
+(id: 3,  time: 720)
+(id: 4,  time: 564)
+(id: 5,  time: 227)
+(id: 6,  time: 168)
+(id: 7,  time: 564)
+(id: 8,  time: 600)
+(id: 9,  time: 1543)
+(id: 10,  time: 2513)
+(id: 11,  time: 2842)
+(id: 12,  time: 3119)
+(id: 13,  time: 3821)
+(id: 14,  time: 4386)
+(id: 15,  time: 4698)
+(id: 16,  time: 4681)
+(id: 17,  time: 4478)
+(id: 18,  time: 3906)
+(id: 19,  time: 3260)
+
+Done!
+
+Testing...
+Running with p = 24, g = 1
+Computation time: 4759 ms
+Workloads:
+(id: 0,  time: 653)
+(id: 1,  time: 205)
+(id: 2,  time: 136)
+(id: 3,  time: 133)
+(id: 4,  time: 133)
+(id: 5,  time: 93)
+(id: 6,  time: 205)
+(id: 7,  time: 584)
+(id: 8,  time: 674)
+(id: 9,  time: 1492)
+(id: 10,  time: 2492)
+(id: 11,  time: 2777)
+(id: 12,  time: 3131)
+(id: 13,  time: 3807)
+(id: 14,  time: 4409)
+(id: 15,  time: 4634)
+(id: 16,  time: 4758)
+(id: 17,  time: 4396)
+(id: 18,  time: 3824)
+(id: 19,  time: 3141)
+(id: 20,  time: 2803)
+(id: 21,  time: 2597)
+(id: 22,  time: 1534)
+(id: 23,  time: 582)
+
+Done!
+
+Testing...
+Running with p = 28, g = 1
+Computation time: 4674 ms
+Workloads:
+(id: 0,  time: 115)
+(id: 1,  time: 72)
+(id: 2,  time: 116)
+(id: 3,  time: 118)
+(id: 4,  time: 70)
+(id: 5,  time: 77)
+(id: 6,  time: 147)
+(id: 7,  time: 625)
+(id: 8,  time: 672)
+(id: 9,  time: 1494)
+(id: 10,  time: 2488)
+(id: 11,  time: 2793)
+(id: 12,  time: 3143)
+(id: 13,  time: 3783)
+(id: 14,  time: 4394)
+(id: 15,  time: 4668)
+(id: 16,  time: 4673)
+(id: 17,  time: 4411)
+(id: 18,  time: 3793)
+(id: 19,  time: 3223)
+(id: 20,  time: 2811)
+(id: 21,  time: 2498)
+(id: 22,  time: 1513)
+(id: 23,  time: 578)
+(id: 24,  time: 640)
+(id: 25,  time: 146)
+(id: 26,  time: 76)
+(id: 27,  time: 72)
+
+Done!
+
+Testing...
+Running with p = 32, g = 1
+Computation time: 4676 ms
+Workloads:
+(id: 0,  time: 54)
+(id: 1,  time: 56)
+(id: 2,  time: 59)
+(id: 3,  time: 62)
+(id: 4,  time: 71)
+(id: 5,  time: 76)
+(id: 6,  time: 148)
+(id: 7,  time: 638)
+(id: 8,  time: 674)
+(id: 9,  time: 1505)
+(id: 10,  time: 2490)
+(id: 11,  time: 2789)
+(id: 12,  time: 3151)
+(id: 13,  time: 3793)
+(id: 14,  time: 4400)
+(id: 15,  time: 4665)
+(id: 16,  time: 4675)
+(id: 17,  time: 4475)
+(id: 18,  time: 3810)
+(id: 19,  time: 3125)
+(id: 20,  time: 2806)
+(id: 21,  time: 2490)
+(id: 22,  time: 1602)
+(id: 23,  time: 567)
+(id: 24,  time: 541)
+(id: 25,  time: 149)
+(id: 26,  time: 76)
+(id: 27,  time: 71)
+(id: 28,  time: 61)
+(id: 29,  time: 59)
+(id: 30,  time: 56)
+(id: 31,  time: 55)
+
+Done!
+
+Testing...
+Running with p = 1, g = 4
+Computation time: 44761 ms
+Workloads:
+(id: 0,  time: 44761)
+
+Done!
+
+Testing...
+Running with p = 2, g = 4
+Computation time: 23005 ms
+Workloads:
+(id: 0,  time: 23005)
+(id: 1,  time: 23001)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 11630 ms
+Workloads:
+(id: 0,  time: 11308)
+(id: 1,  time: 11630)
+(id: 2,  time: 11358)
+(id: 3,  time: 11014)
+
+Done!
+
+Testing...
+Running with p = 8, g = 4
+Computation time: 6060 ms
+Workloads:
+(id: 0,  time: 6060)
+(id: 1,  time: 6003)
+(id: 2,  time: 5763)
+(id: 3,  time: 5379)
+(id: 4,  time: 5381)
+(id: 5,  time: 5757)
+(id: 6,  time: 6000)
+(id: 7,  time: 6028)
+
+Done!
+
+Testing...
+Running with p = 12, g = 4
+Computation time: 4238 ms
+Workloads:
+(id: 0,  time: 4014)
+(id: 1,  time: 4235)
+(id: 2,  time: 4112)
+(id: 3,  time: 4078)
+(id: 4,  time: 4215)
+(id: 5,  time: 4112)
+(id: 6,  time: 4237)
+(id: 7,  time: 3890)
+(id: 8,  time: 3970)
+(id: 9,  time: 3938)
+(id: 10,  time: 4068)
+(id: 11,  time: 3842)
+
+Done!
+
+Testing...
+Running with p = 16, g = 4
+Computation time: 3355 ms
+Workloads:
+(id: 0,  time: 3095)
+(id: 1,  time: 3120)
+(id: 2,  time: 3022)
+(id: 3,  time: 2852)
+(id: 4,  time: 2902)
+(id: 5,  time: 3144)
+(id: 6,  time: 3286)
+(id: 7,  time: 3345)
+(id: 8,  time: 3354)
+(id: 9,  time: 3281)
+(id: 10,  time: 3154)
+(id: 11,  time: 2915)
+(id: 12,  time: 2842)
+(id: 13,  time: 3018)
+(id: 14,  time: 3119)
+(id: 15,  time: 3087)
+
+Done!
+
+Testing...
+Running with p = 20, g = 4
+Computation time: 3010 ms
+Workloads:
+(id: 0,  time: 2920)
+(id: 1,  time: 3009)
+(id: 2,  time: 2642)
+(id: 3,  time: 3009)
+(id: 4,  time: 2593)
+(id: 5,  time: 2642)
+(id: 6,  time: 2631)
+(id: 7,  time: 2615)
+(id: 8,  time: 2573)
+(id: 9,  time: 2942)
+(id: 10,  time: 2474)
+(id: 11,  time: 2272)
+(id: 12,  time: 2207)
+(id: 13,  time: 2313)
+(id: 14,  time: 2309)
+(id: 15,  time: 2214)
+(id: 16,  time: 2554)
+(id: 17,  time: 2860)
+(id: 18,  time: 2988)
+(id: 19,  time: 2986)
+
+Done!
+
+Testing...
+Running with p = 24, g = 4
+Computation time: 2793 ms
+Workloads:
+(id: 0,  time: 2299)
+(id: 1,  time: 2049)
+(id: 2,  time: 1942)
+(id: 3,  time: 1796)
+(id: 4,  time: 1789)
+(id: 5,  time: 2347)
+(id: 6,  time: 2047)
+(id: 7,  time: 2019)
+(id: 8,  time: 2419)
+(id: 9,  time: 2053)
+(id: 10,  time: 2430)
+(id: 11,  time: 2300)
+(id: 12,  time: 2321)
+(id: 13,  time: 2601)
+(id: 14,  time: 2322)
+(id: 15,  time: 2792)
+(id: 16,  time: 2726)
+(id: 17,  time: 2675)
+(id: 18,  time: 2631)
+(id: 19,  time: 2380)
+(id: 20,  time: 2307)
+(id: 21,  time: 2393)
+(id: 22,  time: 2415)
+(id: 23,  time: 2377)
+
+Done!
+
+Testing...
+Running with p = 28, g = 4
+Computation time: 2352 ms
+Workloads:
+(id: 0,  time: 2139)
+(id: 1,  time: 1939)
+(id: 2,  time: 2322)
+(id: 3,  time: 1994)
+(id: 4,  time: 2254)
+(id: 5,  time: 2162)
+(id: 6,  time: 2048)
+(id: 7,  time: 1928)
+(id: 8,  time: 1882)
+(id: 9,  time: 1740)
+(id: 10,  time: 2185)
+(id: 11,  time: 2282)
+(id: 12,  time: 2351)
+(id: 13,  time: 2318)
+(id: 14,  time: 1933)
+(id: 15,  time: 2192)
+(id: 16,  time: 2054)
+(id: 17,  time: 2200)
+(id: 18,  time: 2053)
+(id: 19,  time: 1943)
+(id: 20,  time: 1950)
+(id: 21,  time: 2033)
+(id: 22,  time: 1990)
+(id: 23,  time: 1930)
+(id: 24,  time: 1966)
+(id: 25,  time: 2047)
+(id: 26,  time: 2161)
+(id: 27,  time: 2140)
+
+Done!
+
+Testing...
+Running with p = 32, g = 4
+Computation time: 2052 ms
+Workloads:
+(id: 0,  time: 1823)
+(id: 1,  time: 1879)
+(id: 2,  time: 1798)
+(id: 3,  time: 1660)
+(id: 4,  time: 1733)
+(id: 5,  time: 1873)
+(id: 6,  time: 1955)
+(id: 7,  time: 2009)
+(id: 8,  time: 2028)
+(id: 9,  time: 2023)
+(id: 10,  time: 1935)
+(id: 11,  time: 1869)
+(id: 12,  time: 1784)
+(id: 13,  time: 1864)
+(id: 14,  time: 1901)
+(id: 15,  time: 1836)
+(id: 16,  time: 1788)
+(id: 17,  time: 1931)
+(id: 18,  time: 1850)
+(id: 19,  time: 1834)
+(id: 20,  time: 1824)
+(id: 21,  time: 1974)
+(id: 22,  time: 2048)
+(id: 23,  time: 2051)
+(id: 24,  time: 2023)
+(id: 25,  time: 1924)
+(id: 26,  time: 1895)
+(id: 27,  time: 1705)
+(id: 28,  time: 1644)
+(id: 29,  time: 1797)
+(id: 30,  time: 1916)
+(id: 31,  time: 1901)
+
+Done!
+
+Testing...
+Running with p = 1, g = 16
+Computation time: 44733 ms
+Workloads:
+(id: 0,  time: 44733)
+
+Done!
+
+Testing...
+Running with p = 2, g = 16
+Computation time: 23000 ms
+Workloads:
+(id: 0,  time: 23000)
+(id: 1,  time: 22988)
+
+Done!
+
+Testing...
+Running with p = 4, g = 16
+Computation time: 11528 ms
+Workloads:
+(id: 0,  time: 11510)
+(id: 1,  time: 11528)
+(id: 2,  time: 11234)
+(id: 3,  time: 11173)
+
+Done!
+
+Testing...
+Running with p = 8, g = 16
+Computation time: 5988 ms
+Workloads:
+(id: 0,  time: 5977)
+(id: 1,  time: 5987)
+(id: 2,  time: 5789)
+(id: 3,  time: 5775)
+(id: 4,  time: 5957)
+(id: 5,  time: 5785)
+(id: 6,  time: 5981)
+(id: 7,  time: 5788)
+
+Done!
+
+Testing...
+Running with p = 12, g = 16
+Computation time: 4164 ms
+Workloads:
+(id: 0,  time: 4116)
+(id: 1,  time: 4131)
+(id: 2,  time: 4021)
+(id: 3,  time: 4027)
+(id: 4,  time: 4164)
+(id: 5,  time: 4023)
+(id: 6,  time: 4135)
+(id: 7,  time: 3984)
+(id: 8,  time: 4109)
+(id: 9,  time: 3985)
+(id: 10,  time: 4118)
+(id: 11,  time: 3976)
+
+Done!
+
+Testing...
+Running with p = 16, g = 16
+Computation time: 3170 ms
+Workloads:
+(id: 0,  time: 3039)
+(id: 1,  time: 3043)
+(id: 2,  time: 3062)
+(id: 3,  time: 3086)
+(id: 4,  time: 3104)
+(id: 5,  time: 3146)
+(id: 6,  time: 3164)
+(id: 7,  time: 3169)
+(id: 8,  time: 3163)
+(id: 9,  time: 3169)
+(id: 10,  time: 3143)
+(id: 11,  time: 3115)
+(id: 12,  time: 3081)
+(id: 13,  time: 3063)
+(id: 14,  time: 3054)
+(id: 15,  time: 3029)
+
+Done!
+
+Testing...
+Running with p = 20, g = 16
+Computation time: 2958 ms
+Workloads:
+(id: 0,  time: 2857)
+(id: 1,  time: 2903)
+(id: 2,  time: 2877)
+(id: 3,  time: 2910)
+(id: 4,  time: 2442)
+(id: 5,  time: 2448)
+(id: 6,  time: 2441)
+(id: 7,  time: 2445)
+(id: 8,  time: 2454)
+(id: 9,  time: 2470)
+(id: 10,  time: 2487)
+(id: 11,  time: 2499)
+(id: 12,  time: 2490)
+(id: 13,  time: 2505)
+(id: 14,  time: 2515)
+(id: 15,  time: 2515)
+(id: 16,  time: 2829)
+(id: 17,  time: 2922)
+(id: 18,  time: 2957)
+(id: 19,  time: 2946)
+
+Done!
+
+Testing...
+Running with p = 24, g = 16
+Computation time: 2483 ms
+Workloads:
+(id: 0,  time: 2336)
+(id: 1,  time: 2434)
+(id: 2,  time: 2078)
+(id: 3,  time: 2447)
+(id: 4,  time: 2076)
+(id: 5,  time: 2077)
+(id: 6,  time: 2064)
+(id: 7,  time: 2470)
+(id: 8,  time: 2460)
+(id: 9,  time: 2067)
+(id: 10,  time: 2056)
+(id: 11,  time: 2468)
+(id: 12,  time: 2056)
+(id: 13,  time: 2074)
+(id: 14,  time: 2483)
+(id: 15,  time: 2455)
+(id: 16,  time: 2409)
+(id: 17,  time: 2457)
+(id: 18,  time: 2479)
+(id: 19,  time: 2471)
+(id: 20,  time: 2415)
+(id: 21,  time: 2433)
+(id: 22,  time: 2423)
+(id: 23,  time: 2472)
+
+Done!
+
+Testing...
+Running with p = 28, g = 16
+Computation time: 2207 ms
+Workloads:
+(id: 0,  time: 2090)
+(id: 1,  time: 2122)
+(id: 2,  time: 2074)
+(id: 3,  time: 1723)
+(id: 4,  time: 2086)
+(id: 5,  time: 2147)
+(id: 6,  time: 2165)
+(id: 7,  time: 2129)
+(id: 8,  time: 2102)
+(id: 9,  time: 2114)
+(id: 10,  time: 1769)
+(id: 11,  time: 2162)
+(id: 12,  time: 1795)
+(id: 13,  time: 1805)
+(id: 14,  time: 2199)
+(id: 15,  time: 2206)
+(id: 16,  time: 2086)
+(id: 17,  time: 2131)
+(id: 18,  time: 2173)
+(id: 19,  time: 2174)
+(id: 20,  time: 2193)
+(id: 21,  time: 2200)
+(id: 22,  time: 2126)
+(id: 23,  time: 2168)
+(id: 24,  time: 2158)
+(id: 25,  time: 2185)
+(id: 26,  time: 2069)
+(id: 27,  time: 2134)
+
+Done!
+
+Testing...
+Running with p = 32, g = 16
+Computation time: 2000 ms
+Workloads:
+(id: 0,  time: 1887)
+(id: 1,  time: 1936)
+(id: 2,  time: 1943)
+(id: 3,  time: 1935)
+(id: 4,  time: 1927)
+(id: 5,  time: 1951)
+(id: 6,  time: 1944)
+(id: 7,  time: 1961)
+(id: 8,  time: 1910)
+(id: 9,  time: 1864)
+(id: 10,  time: 1853)
+(id: 11,  time: 1823)
+(id: 12,  time: 1786)
+(id: 13,  time: 1803)
+(id: 14,  time: 1722)
+(id: 15,  time: 1740)
+(id: 16,  time: 1622)
+(id: 17,  time: 1772)
+(id: 18,  time: 1794)
+(id: 19,  time: 1790)
+(id: 20,  time: 1859)
+(id: 21,  time: 1900)
+(id: 22,  time: 1927)
+(id: 23,  time: 1882)
+(id: 24,  time: 1957)
+(id: 25,  time: 1923)
+(id: 26,  time: 1968)
+(id: 27,  time: 1959)
+(id: 28,  time: 1943)
+(id: 29,  time: 1939)
+(id: 30,  time: 1969)
+(id: 31,  time: 1998)
+
+Done!
