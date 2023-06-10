@@ -1,0 +1,650 @@
+
+Testing...
+Running with p = 1, g = 1
+Computation time: 11120 ms
+Workloads:
+(id: 0,  time: 11120)
+
+Done!
+
+Testing...
+Running with p = 2, g = 1
+Computation time: 5577 ms
+Workloads:
+(id: 0,  time: 5577)
+(id: 1,  time: 5567)
+
+Done!
+
+Testing...
+Running with p = 4, g = 1
+Computation time: 2958 ms
+Workloads:
+(id: 0,  time: 2717)
+(id: 1,  time: 2859)
+(id: 2,  time: 2957)
+(id: 3,  time: 2807)
+
+Done!
+
+Testing...
+Running with p = 8, g = 1
+Computation time: 1566 ms
+Workloads:
+(id: 0,  time: 1393)
+(id: 1,  time: 1446)
+(id: 2,  time: 1566)
+(id: 3,  time: 1469)
+(id: 4,  time: 1421)
+(id: 5,  time: 1565)
+(id: 6,  time: 1449)
+(id: 7,  time: 1438)
+
+Done!
+
+Testing...
+Running with p = 12, g = 1
+Computation time: 1213 ms
+Workloads:
+(id: 0,  time: 898)
+(id: 1,  time: 971)
+(id: 2,  time: 1148)
+(id: 3,  time: 1212)
+(id: 4,  time: 1177)
+(id: 5,  time: 1148)
+(id: 6,  time: 973)
+(id: 7,  time: 927)
+(id: 8,  time: 815)
+(id: 9,  time: 992)
+(id: 10,  time: 964)
+(id: 11,  time: 842)
+
+Done!
+
+Testing...
+Running with p = 16, g = 1
+Computation time: 1183 ms
+Workloads:
+(id: 0,  time: 1174)
+(id: 1,  time: 1106)
+(id: 2,  time: 967)
+(id: 3,  time: 799)
+(id: 4,  time: 705)
+(id: 5,  time: 640)
+(id: 6,  time: 404)
+(id: 7,  time: 267)
+(id: 8,  time: 268)
+(id: 9,  time: 400)
+(id: 10,  time: 631)
+(id: 11,  time: 713)
+(id: 12,  time: 786)
+(id: 13,  time: 965)
+(id: 14,  time: 1105)
+(id: 15,  time: 1182)
+
+Done!
+
+Testing...
+Running with p = 20, g = 1
+Computation time: 1189 ms
+Workloads:
+(id: 0,  time: 720)
+(id: 1,  time: 668)
+(id: 2,  time: 423)
+(id: 3,  time: 168)
+(id: 4,  time: 141)
+(id: 5,  time: 42)
+(id: 6,  time: 42)
+(id: 7,  time: 140)
+(id: 8,  time: 150)
+(id: 9,  time: 381)
+(id: 10,  time: 630)
+(id: 11,  time: 704)
+(id: 12,  time: 779)
+(id: 13,  time: 951)
+(id: 14,  time: 1095)
+(id: 15,  time: 1172)
+(id: 16,  time: 1188)
+(id: 17,  time: 1130)
+(id: 18,  time: 983)
+(id: 19,  time: 799)
+
+Done!
+
+Testing...
+Running with p = 24, g = 1
+Computation time: 1189 ms
+Workloads:
+(id: 0,  time: 162)
+(id: 1,  time: 36)
+(id: 2,  time: 33)
+(id: 4,  time: 33)
+(id: 5,  time: 34)
+(id: 6,  time: 51)
+(id: 7,  time: 170)
+(id: 8,  time: 156)
+(id: 9,  time: 371)
+(id: 10,  time: 616)
+(id: 11,  time: 693)
+(id: 12,  time: 776)
+(id: 13,  time: 943)
+(id: 14,  time: 1092)
+(id: 15,  time: 1159)
+(id: 16,  time: 1188)
+(id: 17,  time: 1100)
+(id: 18,  time: 949)
+(id: 19,  time: 806)
+(id: 20,  time: 712)
+(id: 21,  time: 623)
+(id: 22,  time: 389)
+(id: 23,  time: 145)
+
+Done!
+
+Testing...
+Running with p = 28, g = 1
+Computation time: 1195 ms
+Workloads:
+(id: 0,  time: 28)
+(id: 1,  time: 28)
+(id: 2,  time: 28)
+(id: 3,  time: 29)
+(id: 4,  time: 12)
+(id: 5,  time: 13)
+(id: 6,  time: 36)
+(id: 7,  time: 131)
+(id: 8,  time: 143)
+(id: 9,  time: 394)
+(id: 10,  time: 645)
+(id: 11,  time: 695)
+(id: 12,  time: 806)
+(id: 13,  time: 956)
+(id: 14,  time: 1093)
+(id: 15,  time: 1195)
+(id: 16,  time: 1164)
+(id: 17,  time: 1119)
+(id: 18,  time: 974)
+(id: 19,  time: 784)
+(id: 20,  time: 697)
+(id: 21,  time: 654)
+(id: 22,  time: 404)
+(id: 23,  time: 153)
+(id: 24,  time: 135)
+(id: 25,  time: 34)
+(id: 26,  time: 19)
+(id: 27,  time: 18)
+
+Done!
+
+Testing...
+Running with p = 32, g = 1
+Computation time: 1179 ms
+Workloads:
+(id: 0,  time: 13)
+(id: 1,  time: 13)
+(id: 2,  time: 14)
+(id: 3,  time: 15)
+(id: 4,  time: 17)
+(id: 5,  time: 19)
+(id: 6,  time: 36)
+(id: 7,  time: 130)
+(id: 8,  time: 165)
+(id: 9,  time: 389)
+(id: 10,  time: 644)
+(id: 11,  time: 729)
+(id: 12,  time: 780)
+(id: 13,  time: 959)
+(id: 14,  time: 1095)
+(id: 15,  time: 1178)
+(id: 16,  time: 1163)
+(id: 17,  time: 1113)
+(id: 18,  time: 948)
+(id: 19,  time: 805)
+(id: 20,  time: 700)
+(id: 21,  time: 628)
+(id: 22,  time: 402)
+(id: 23,  time: 173)
+(id: 24,  time: 160)
+(id: 25,  time: 31)
+(id: 26,  time: 19)
+(id: 27,  time: 18)
+(id: 28,  time: 14)
+(id: 29,  time: 15)
+(id: 30,  time: 14)
+(id: 31,  time: 14)
+
+Done!
+
+Testing...
+Running with p = 1, g = 4
+Computation time: 11121 ms
+Workloads:
+(id: 0,  time: 11121)
+
+Done!
+
+Testing...
+Running with p = 2, g = 4
+Computation time: 5575 ms
+Workloads:
+(id: 0,  time: 5575)
+(id: 1,  time: 5574)
+
+Done!
+
+Testing...
+Running with p = 4, g = 4
+Computation time: 2921 ms
+Workloads:
+(id: 0,  time: 2749)
+(id: 1,  time: 2828)
+(id: 2,  time: 2921)
+(id: 3,  time: 2837)
+
+Done!
+
+Testing...
+Running with p = 8, g = 4
+Computation time: 1550 ms
+Workloads:
+(id: 0,  time: 1506)
+(id: 1,  time: 1493)
+(id: 2,  time: 1485)
+(id: 3,  time: 1389)
+(id: 4,  time: 1337)
+(id: 5,  time: 1483)
+(id: 6,  time: 1494)
+(id: 7,  time: 1549)
+
+Done!
+
+Testing...
+Running with p = 12, g = 4
+Computation time: 1026 ms
+Workloads:
+(id: 0,  time: 965)
+(id: 1,  time: 1021)
+(id: 2,  time: 1025)
+(id: 3,  time: 1016)
+(id: 4,  time: 1018)
+(id: 5,  time: 1025)
+(id: 6,  time: 1022)
+(id: 7,  time: 968)
+(id: 8,  time: 955)
+(id: 9,  time: 979)
+(id: 10,  time: 979)
+(id: 11,  time: 956)
+
+Done!
+
+Testing...
+Running with p = 16, g = 4
+Computation time: 834 ms
+Workloads:
+(id: 0,  time: 770)
+(id: 1,  time: 774)
+(id: 2,  time: 752)
+(id: 3,  time: 710)
+(id: 4,  time: 723)
+(id: 5,  time: 782)
+(id: 6,  time: 816)
+(id: 7,  time: 834)
+(id: 8,  time: 833)
+(id: 9,  time: 818)
+(id: 10,  time: 783)
+(id: 11,  time: 725)
+(id: 12,  time: 708)
+(id: 13,  time: 750)
+(id: 14,  time: 774)
+(id: 15,  time: 767)
+
+Done!
+
+Testing...
+Running with p = 20, g = 4
+Computation time: 764 ms
+Workloads:
+(id: 0,  time: 736)
+(id: 1,  time: 763)
+(id: 2,  time: 752)
+(id: 3,  time: 753)
+(id: 4,  time: 644)
+(id: 5,  time: 652)
+(id: 6,  time: 651)
+(id: 7,  time: 646)
+(id: 8,  time: 640)
+(id: 9,  time: 636)
+(id: 10,  time: 614)
+(id: 11,  time: 563)
+(id: 12,  time: 548)
+(id: 13,  time: 573)
+(id: 14,  time: 573)
+(id: 15,  time: 549)
+(id: 16,  time: 643)
+(id: 17,  time: 715)
+(id: 18,  time: 739)
+(id: 19,  time: 748)
+
+Done!
+
+Testing...
+Running with p = 24, g = 4
+Computation time: 678 ms
+Workloads:
+(id: 0,  time: 589)
+(id: 1,  time: 509)
+(id: 2,  time: 571)
+(id: 3,  time: 446)
+(id: 4,  time: 538)
+(id: 5,  time: 481)
+(id: 6,  time: 606)
+(id: 7,  time: 502)
+(id: 8,  time: 501)
+(id: 9,  time: 615)
+(id: 10,  time: 504)
+(id: 11,  time: 582)
+(id: 12,  time: 611)
+(id: 13,  time: 655)
+(id: 14,  time: 575)
+(id: 15,  time: 603)
+(id: 16,  time: 677)
+(id: 17,  time: 667)
+(id: 18,  time: 646)
+(id: 19,  time: 603)
+(id: 20,  time: 586)
+(id: 21,  time: 600)
+(id: 22,  time: 616)
+(id: 23,  time: 605)
+
+Done!
+
+Testing...
+Running with p = 28, g = 4
+Computation time: 580 ms
+Workloads:
+(id: 0,  time: 529)
+(id: 1,  time: 574)
+(id: 2,  time: 485)
+(id: 3,  time: 580)
+(id: 4,  time: 560)
+(id: 5,  time: 542)
+(id: 6,  time: 433)
+(id: 7,  time: 468)
+(id: 8,  time: 470)
+(id: 9,  time: 529)
+(id: 10,  time: 533)
+(id: 11,  time: 554)
+(id: 12,  time: 572)
+(id: 13,  time: 485)
+(id: 14,  time: 481)
+(id: 15,  time: 545)
+(id: 16,  time: 509)
+(id: 17,  time: 537)
+(id: 18,  time: 513)
+(id: 19,  time: 483)
+(id: 20,  time: 478)
+(id: 21,  time: 495)
+(id: 22,  time: 507)
+(id: 23,  time: 490)
+(id: 24,  time: 489)
+(id: 25,  time: 512)
+(id: 26,  time: 539)
+(id: 27,  time: 544)
+
+Done!
+
+Testing...
+Running with p = 32, g = 4
+Computation time: 515 ms
+Workloads:
+(id: 0,  time: 461)
+(id: 1,  time: 473)
+(id: 2,  time: 446)
+(id: 3,  time: 411)
+(id: 4,  time: 421)
+(id: 5,  time: 462)
+(id: 6,  time: 478)
+(id: 7,  time: 503)
+(id: 8,  time: 503)
+(id: 9,  time: 514)
+(id: 10,  time: 494)
+(id: 11,  time: 463)
+(id: 12,  time: 457)
+(id: 13,  time: 461)
+(id: 14,  time: 463)
+(id: 15,  time: 465)
+(id: 16,  time: 433)
+(id: 17,  time: 472)
+(id: 18,  time: 462)
+(id: 19,  time: 455)
+(id: 20,  time: 462)
+(id: 21,  time: 478)
+(id: 22,  time: 506)
+(id: 23,  time: 507)
+(id: 24,  time: 492)
+(id: 25,  time: 486)
+(id: 26,  time: 462)
+(id: 27,  time: 423)
+(id: 28,  time: 418)
+(id: 29,  time: 455)
+(id: 30,  time: 465)
+(id: 31,  time: 471)
+
+Done!
+
+Testing...
+Running with p = 1, g = 16
+Computation time: 11117 ms
+Workloads:
+(id: 0,  time: 11117)
+
+Done!
+
+Testing...
+Running with p = 2, g = 16
+Computation time: 5605 ms
+Workloads:
+(id: 0,  time: 5605)
+(id: 1,  time: 5577)
+
+Done!
+
+Testing...
+Running with p = 4, g = 16
+Computation time: 2818 ms
+Workloads:
+(id: 0,  time: 2789)
+(id: 1,  time: 2786)
+(id: 2,  time: 2817)
+(id: 3,  time: 2816)
+
+Done!
+
+Testing...
+Running with p = 8, g = 16
+Computation time: 1499 ms
+Workloads:
+(id: 0,  time: 1496)
+(id: 1,  time: 1491)
+(id: 2,  time: 1445)
+(id: 3,  time: 1440)
+(id: 4,  time: 1497)
+(id: 5,  time: 1447)
+(id: 6,  time: 1499)
+(id: 7,  time: 1447)
+
+Done!
+
+Testing...
+Running with p = 12, g = 16
+Computation time: 1012 ms
+Workloads:
+(id: 0,  time: 990)
+(id: 1,  time: 998)
+(id: 2,  time: 1011)
+(id: 3,  time: 1009)
+(id: 4,  time: 1003)
+(id: 5,  time: 1011)
+(id: 6,  time: 1002)
+(id: 7,  time: 1003)
+(id: 8,  time: 987)
+(id: 9,  time: 984)
+(id: 10,  time: 978)
+(id: 11,  time: 986)
+
+Done!
+
+Testing...
+Running with p = 16, g = 16
+Computation time: 783 ms
+Workloads:
+(id: 0,  time: 776)
+(id: 1,  time: 777)
+(id: 2,  time: 783)
+(id: 3,  time: 777)
+(id: 4,  time: 776)
+(id: 5,  time: 774)
+(id: 6,  time: 773)
+(id: 7,  time: 770)
+(id: 8,  time: 767)
+(id: 9,  time: 760)
+(id: 10,  time: 761)
+(id: 11,  time: 761)
+(id: 12,  time: 768)
+(id: 13,  time: 770)
+(id: 14,  time: 773)
+(id: 15,  time: 776)
+
+Done!
+
+Testing...
+Running with p = 20, g = 16
+Computation time: 734 ms
+Workloads:
+(id: 0,  time: 709)
+(id: 1,  time: 733)
+(id: 2,  time: 613)
+(id: 3,  time: 734)
+(id: 4,  time: 617)
+(id: 5,  time: 732)
+(id: 6,  time: 613)
+(id: 7,  time: 613)
+(id: 8,  time: 613)
+(id: 9,  time: 618)
+(id: 10,  time: 620)
+(id: 11,  time: 621)
+(id: 12,  time: 621)
+(id: 13,  time: 619)
+(id: 14,  time: 623)
+(id: 15,  time: 618)
+(id: 16,  time: 704)
+(id: 17,  time: 728)
+(id: 18,  time: 728)
+(id: 19,  time: 724)
+
+Done!
+
+Testing...
+Running with p = 24, g = 16
+Computation time: 632 ms
+Workloads:
+(id: 0,  time: 626)
+(id: 1,  time: 520)
+(id: 2,  time: 622)
+(id: 3,  time: 521)
+(id: 4,  time: 617)
+(id: 5,  time: 518)
+(id: 6,  time: 618)
+(id: 7,  time: 614)
+(id: 8,  time: 618)
+(id: 9,  time: 600)
+(id: 10,  time: 501)
+(id: 11,  time: 606)
+(id: 12,  time: 508)
+(id: 13,  time: 515)
+(id: 14,  time: 517)
+(id: 15,  time: 518)
+(id: 16,  time: 617)
+(id: 17,  time: 631)
+(id: 18,  time: 629)
+(id: 19,  time: 631)
+(id: 20,  time: 628)
+(id: 21,  time: 625)
+(id: 22,  time: 614)
+(id: 23,  time: 611)
+
+Done!
+
+Testing...
+Running with p = 28, g = 16
+Computation time: 544 ms
+Workloads:
+(id: 0,  time: 507)
+(id: 1,  time: 539)
+(id: 2,  time: 532)
+(id: 3,  time: 529)
+(id: 4,  time: 532)
+(id: 5,  time: 540)
+(id: 6,  time: 542)
+(id: 7,  time: 541)
+(id: 8,  time: 440)
+(id: 9,  time: 441)
+(id: 10,  time: 532)
+(id: 11,  time: 440)
+(id: 12,  time: 441)
+(id: 13,  time: 532)
+(id: 14,  time: 529)
+(id: 15,  time: 530)
+(id: 16,  time: 517)
+(id: 17,  time: 542)
+(id: 18,  time: 532)
+(id: 19,  time: 533)
+(id: 20,  time: 542)
+(id: 21,  time: 534)
+(id: 22,  time: 538)
+(id: 23,  time: 542)
+(id: 24,  time: 524)
+(id: 25,  time: 524)
+(id: 26,  time: 538)
+(id: 27,  time: 540)
+
+Done!
+
+Testing...
+Running with p = 32, g = 16
+Computation time: 481 ms
+Workloads:
+(id: 0,  time: 453)
+(id: 1,  time: 466)
+(id: 2,  time: 467)
+(id: 3,  time: 467)
+(id: 4,  time: 476)
+(id: 5,  time: 476)
+(id: 6,  time: 465)
+(id: 7,  time: 463)
+(id: 8,  time: 462)
+(id: 9,  time: 458)
+(id: 10,  time: 460)
+(id: 11,  time: 461)
+(id: 12,  time: 474)
+(id: 13,  time: 476)
+(id: 14,  time: 477)
+(id: 15,  time: 470)
+(id: 16,  time: 450)
+(id: 17,  time: 480)
+(id: 18,  time: 477)
+(id: 19,  time: 473)
+(id: 20,  time: 472)
+(id: 21,  time: 476)
+(id: 22,  time: 468)
+(id: 23,  time: 473)
+(id: 24,  time: 471)
+(id: 25,  time: 469)
+(id: 26,  time: 468)
+(id: 27,  time: 467)
+(id: 28,  time: 471)
+(id: 29,  time: 473)
+(id: 30,  time: 474)
+(id: 31,  time: 467)
+
+Done!

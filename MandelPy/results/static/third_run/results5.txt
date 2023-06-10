@@ -1,0 +1,80 @@
+Running program with p = 1 and g = 1
+Time taken: 27.9215 seconds
+Program execution completed
+
+Running program with p = 1 and g = 4
+Time taken: 27.4441 seconds
+Program execution completed
+
+Running program with p = 1 and g = 5
+Time taken: 29.1113 seconds
+Program execution completed
+
+Running program with p = 1 and g = 10
+Time taken: 30.6534 seconds
+Program execution completed
+
+Running program with p = 1 and g = 12
+Time taken: 30.7573 seconds
+Program execution completed
+
+Running program with p = 2 and g = 1
+Time taken: 28.8317 seconds
+Program execution completed
+
+Running program with p = 2 and g = 4
+Time taken: 25.9105 seconds
+Program execution completed
+
+Running program with p = 2 and g = 5
+Time taken: 26.2200 seconds
+Program execution completed
+
+Running program with p = 2 and g = 10
+Time taken: 27.8301 seconds
+Program execution completed
+
+Running program with p = 2 and g = 12
+Time taken: 31.2518 seconds
+Program execution completed
+
+Running program with p = 3 and g = 1
+Time taken: 28.9075 seconds
+Program execution completed
+
+Running program with p = 3 and g = 4
+Time taken: 21.9706 seconds
+Program execution completed
+
+Running program with p = 3 and g = 5
+Time taken: 23.6181 seconds
+Program execution completed
+
+Running program with p = 3 and g = 10
+Time taken: 24.8597 seconds
+Program execution completed
+
+Running program with p = 3 and g = 12
+Time taken: 25.9257 seconds
+Program execution completed
+
+Running program with p = 4 and g = 1
+Time taken: 24.9448 seconds
+Program execution completed
+
+Running program with p = 4 and g = 4
+Time taken: 18.9881 seconds
+Program execution completed
+
+Running program with p = 4 and g = 5
+Time taken: 17.9678 seconds
+Program execution completed
+
+Running program with p = 4 and g = 10
+Time taken: 17.5831 seconds
+Program execution completed
+
+Running program with p = 4 and g = 12
+Time taken: 18.5387 seconds
+Program execution completed
+
